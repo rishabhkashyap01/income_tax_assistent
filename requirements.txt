@@ -1,0 +1,23 @@
+# Web Framework
+streamlit
+
+# RAG Orchestration
+langchain
+langchain-groq
+langchain-community
+langchain-chroma
+
+# Data Extraction & Processing
+pypdf
+beautifulsoup4
+crawl4ai
+markdownify
+
+# Vector Database & Embeddings
+chromadb
+sentence-transformers
+tiktoken
+
+# Environment & Utilities
+python-dotenv
+pandas
