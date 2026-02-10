@@ -1,0 +1,2602 @@
+[
+  {
+    "rule_number": "1",
+    "cms_id": "103120000000009095",
+    "description": "Short title and commencement"
+  },
+  {
+    "rule_number": "2",
+    "cms_id": "103120000000006780",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "2A",
+    "cms_id": "103120000000006868",
+    "description": "Limits for the purposes of section 10(13A)"
+  },
+  {
+    "rule_number": "2B",
+    "cms_id": "103120000000006903",
+    "description": "Conditions for the purpose of section 10(5)"
+  },
+  {
+    "rule_number": "2BA",
+    "cms_id": "103120000000006947",
+    "description": "Guidelines for the purposes of section 10(10C)"
+  },
+  {
+    "rule_number": "2BB",
+    "cms_id": "103120000000006985",
+    "description": "Prescribed allowances for the purposes of clause (14) of section 10"
+  },
+  {
+    "rule_number": "2BBA",
+    "cms_id": "103120000000006994",
+    "description": "Circumstances and conditions for the purposes of clause (19) of section 10"
+  },
+  {
+    "rule_number": "2BBB",
+    "cms_id": "048FEB63-6C23-452c-A8F6-0B8741AA7AA5",
+    "description": "Percentage of Government grant for considering university, hospital etc. as substantially financed by the Government for the purposes of clause (23C) of section 10"
+  },
+  {
+    "rule_number": "2BC",
+    "cms_id": "103120000000007008",
+    "description": "Amount of annual receipts for the purposes of sub-clauses (iiiad) and (iiiae) of clause (23C) of section 10"
+  },
+  {
+    "rule_number": "2C",
+    "cms_id": "103120000000007020",
+    "description": "Application for the purpose of grant of approval of a fund or trust or institution or university or any hospital or other medical institution under clause (i) or clause (ii) or clause (iii) or clause (iv) of first proviso to clause (23C) of Section 10"
+  },
+  {
+    "rule_number": "2D",
+    "cms_id": "103120000000007035",
+    "description": "Guidelines for approval under clause (23F) of section 10"
+  },
+  {
+    "rule_number": "2DA",
+    "cms_id": "103120000000007046",
+    "description": "Guidelines for approval under clause (23FA) of section 10"
+  },
+  {
+    "rule_number": "2DAA",
+    "cms_id": "103520000000109696",
+    "description": "Conditions for the Venture Capital Fund for the clause (23FB) of section 10"
+  },
+  {
+    "rule_number": "2DB",
+    "cms_id": "103520000000076898",
+    "description": "Other conditions to be satisfied by the pension fund"
+  },
+  {
+    "rule_number": "2DC",
+    "cms_id": "103520000000076899",
+    "description": "Guidelines for notification under clause (23FE) of section 10"
+  },
+  {
+    "rule_number": "2DCA",
+    "cms_id": "103520000000090512",
+    "description": "Computation of minimum investment and exempt income for the purposes of clause (23FE) of section 10 of the Act"
+  },
+  {
+    "rule_number": "2DD",
+    "cms_id": "103520000000087059",
+    "description": "Computation of exempt income of specified fund for the purposes of clause (23FF) of section 10"
+  },
+  {
+    "rule_number": "2E",
+    "cms_id": "103120000000010908",
+    "description": "Guidelines for approval under clause (23G) of section 10"
+  },
+  {
+    "rule_number": "2F",
+    "cms_id": "103120000000007052",
+    "description": "Guidelines for setting up an Infrastructure Debt Fund for the purpose of exemption under clause (47) of section 10"
+  },
+  {
+    "rule_number": "3",
+    "cms_id": "103120000000007059",
+    "description": "Valuation of perquisites"
+  },
+  {
+    "rule_number": "3A",
+    "cms_id": "103120000000007062",
+    "description": "Exemption of medical benefits from perquisite value in respect of medical treatment of prescribed diseases or ailments in hospitals approved by the Chief Commissioner"
+  },
+  {
+    "rule_number": "3B",
+    "cms_id": "103520000000080290",
+    "description": "Annual accretion referred to in the sub-clause (viia) of clause (2) of section 17 of the Act"
+  },
+  {
+    "rule_number": "3C",
+    "cms_id": "103520000000112816",
+    "description": "Salary income for the purposes of item (c) of sub-clause (iii) of clause (2) of section 17 of the Act"
+  },
+  {
+    "rule_number": "3D",
+    "cms_id": "103520000000112817",
+    "description": "Gross total income for the purposes of clause (vi) of Proviso to clause (2) of section 17 of the Act"
+  },
+  {
+    "rule_number": "4",
+    "cms_id": "103120000000007065",
+    "description": "Unrealised rent"
+  },
+  {
+    "rule_number": "5",
+    "cms_id": "103120000000007080",
+    "description": "Depreciation"
+  },
+  {
+    "rule_number": "5A",
+    "cms_id": "103120000000007083",
+    "description": "Form of report by an accountant for claiming deduction under section 32(1)(iia)"
+  },
+  {
+    "rule_number": "5AA",
+    "cms_id": "103120000000007086",
+    "description": "Prescribed authority for investment allowance"
+  },
+  {
+    "rule_number": "5AB",
+    "cms_id": "103120000000007089",
+    "description": "Report of audit of accounts to be furnished under section 32AB(5)"
+  },
+  {
+    "rule_number": "5AC",
+    "cms_id": "103120000000007092",
+    "description": "Report of audit of accounts to be furnished under section 33AB(2)"
+  },
+  {
+    "rule_number": "5AD",
+    "cms_id": "103120000000007095",
+    "description": "Report of audit of accounts to be furnished under section 33ABA(2)"
+  },
+  {
+    "rule_number": "5B",
+    "cms_id": "103120000000007098",
+    "description": "Development rebate"
+  },
+  {
+    "rule_number": "5C",
+    "cms_id": "103120000000007099",
+    "description": "Guidelines, form and manner in respect of approval under clause (ii) and clause (iii) of sub-section (1) of section 35"
+  },
+  {
+    "rule_number": "5CA",
+    "cms_id": "103520000000080966",
+    "description": "Intimation under Fifth Proviso to sub-section (1) of section 35"
+  },
+  {
+    "rule_number": "5D",
+    "cms_id": "103120000000007100",
+    "description": "Conditions subject to which approval is to be granted to a research association under clause (ii) or clause (iii) of sub-section (1) of section 35"
+  },
+  {
+    "rule_number": "5E",
+    "cms_id": "103120000000007101",
+    "description": "Conditions subject to which approval is to be granted to a University, College or other Institution under clause (ii) and clause (iii) of sub-section (1) of section 35"
+  },
+  {
+    "rule_number": "5F",
+    "cms_id": "103120000000007102",
+    "description": "Prescribed authority, guidelines, form, manner and conditions for approval under clause (iia) of sub-section (1) of section 35"
+  },
+  {
+    "rule_number": "5G",
+    "cms_id": "284779B6-89BF-41f0-9E24-B75DF9EC5B1E",
+    "description": "Option form for taxation of income from patent under section 115BBF"
+  },
+  {
+    "rule_number": "6",
+    "cms_id": "103120000000007105",
+    "description": "Prescribed authority for expenditure on scientific research"
+  },
+  {
+    "rule_number": "6A",
+    "cms_id": "103120000000007107",
+    "description": "Expenditure for obtaining right to use spectrum for telecommunication services"
+  },
+  {
+    "rule_number": "6AA",
+    "cms_id": "103120000000007110",
+    "description": "Prescribed activities for export markets development allowance"
+  },
+  {
+    "rule_number": "6AAA",
+    "cms_id": "103120000000007113",
+    "description": "Prescribed authority for the purposes of sections 35CC and 35CCA"
+  },
+  {
+    "rule_number": "6AAB",
+    "cms_id": "103120000000007115",
+    "description": "Statement of expenditure for claiming deduction under section 35CC"
+  },
+  {
+    "rule_number": "6AAC",
+    "cms_id": "103120000000007117",
+    "description": "Prescribed authority for the purposes of section 35CCB"
+  },
+  {
+    "rule_number": "6AAD",
+    "cms_id": "103120000000009479",
+    "description": "Guidelines for approval of agricultural extension project under section 35CCC"
+  },
+  {
+    "rule_number": "6AAE",
+    "cms_id": "103120000000009478",
+    "description": "Conditions subject to which an agricultural extension project is to be notified under section 35CCC"
+  },
+  {
+    "rule_number": "6AAF",
+    "cms_id": "103120000000009662",
+    "description": "Guidelines for approval of skill development project under section 35CCD"
+  },
+  {
+    "rule_number": "6AAG",
+    "cms_id": "103120000000009663",
+    "description": "Conditions subject to which a skill development project is to be notified under section 35CCD"
+  },
+  {
+    "rule_number": "6AAH",
+    "cms_id": "103120000000009664",
+    "description": "Meaning of expressions used in rule 6AAF and rule 6AAG"
+  },
+  {
+    "rule_number": "6AB",
+    "cms_id": "103120000000007119",
+    "description": "Form of audit report for claiming deductions under sections 35D and 35E"
+  },
+  {
+    "rule_number": "6ABA",
+    "cms_id": "103120000000007121",
+    "description": "Computation of aggregate average advances for the purposes of clause (viia) of sub-section (1) of section 36"
+  },
+  {
+    "rule_number": "6ABAA",
+    "cms_id": "103120000000007122",
+    "description": "Infrastructure facility under clause (d) of the Explanation to clause (viii) of sub-section (1) of section 36"
+  },
+  {
+    "rule_number": "6ABB",
+    "cms_id": "103120000000007124",
+    "description": "Form of report for claiming deduction under clause (xi) of sub-section (1) of section 36"
+  },
+  {
+    "rule_number": "6ABBA",
+    "cms_id": "103520000000075552",
+    "description": "Other electronic modes"
+  },
+  {
+    "rule_number": "6ABBB",
+    "cms_id": "103520000000099562",
+    "description": "Form of statement to be furnished regarding preliminary expenses incurred under section 35D"
+  },
+  {
+    "rule_number": "6AC",
+    "cms_id": "103120000000007126",
+    "description": "Limits and conditions for allowance of expenditure in certain cases"
+  },
+  {
+    "rule_number": "6B",
+    "cms_id": "103120000000007790",
+    "description": "Expenditure on advertisement"
+  },
+  {
+    "rule_number": "6C",
+    "cms_id": "103120000000007132",
+    "description": "Expenditure on residential accommodation including guest houses"
+  },
+  {
+    "rule_number": "6D",
+    "cms_id": "103120000000007134",
+    "description": "Expenditure in connection with travelling, etc"
+  },
+  {
+    "rule_number": "6DD",
+    "cms_id": "103120000000007136",
+    "description": "Cases and circumstances in which a payment or aggregate of payments exceeding ten thousand rupees may be made to a person in a day, otherwise than by an account payee cheque drawn on a bank or account payee bank draft or use of electronic clearing...."
+  },
+  {
+    "rule_number": "6DDA",
+    "cms_id": "103120000000007137",
+    "description": "Conditions that a stock exchange is required to fulfil to be notified as a recognised stock exchange for the purposes of clause (d) of proviso to clause (5) of section 43"
+  },
+  {
+    "rule_number": "6DDB",
+    "cms_id": "103120000000007138",
+    "description": "Notification of a recognised stock exchange for the purposes of clause (d) of proviso to clause (5) of section 43"
+  },
+  {
+    "rule_number": "6DDC",
+    "cms_id": "103120000000009654",
+    "description": "Conditions that a recognised association is required to fulfil to be notified as a recognised association for the purposes of clause (e) of the proviso to clause (5) of section 43"
+  },
+  {
+    "rule_number": "6DDD",
+    "cms_id": "103120000000009655",
+    "description": "Notification of a recognised association for the purposes of clause (e) of the proviso to clause (5) of section 43"
+  },
+  {
+    "rule_number": "6E",
+    "cms_id": "103120000000007140",
+    "description": "Limits of reserve for unexpired risks"
+  },
+  {
+    "rule_number": "6EA",
+    "cms_id": "103120000000007142",
+    "description": "Special provision regarding interest on bad and doubtful debts of financial institutions, banks, etc."
+  },
+  {
+    "rule_number": "6EB",
+    "cms_id": "103120000000007144",
+    "description": "Categories of bad or doubtful debts in the case of a public company under clause (b) of section 43D"
+  },
+  {
+    "rule_number": "6F",
+    "cms_id": "103120000000007146",
+    "description": "Books of account and other documents to be kept and maintained under section 44AA(3) by persons carrying on certain professions"
+  },
+  {
+    "rule_number": "6G",
+    "cms_id": "103120000000007148",
+    "description": "Report of audit of accounts to be furnished under section 44AB"
+  },
+  {
+    "rule_number": "6GA",
+    "cms_id": "103120000000007149",
+    "description": "Form of report of audit to be furnished under sub-section (2) of section 44DA"
+  },
+  {
+    "rule_number": "6GB",
+    "cms_id": "103520000000109670",
+    "description": "Conditions for non-resident, engaged in the business of operation of cruise ships for section 44BBC"
+  },
+  {
+    "rule_number": "6H",
+    "cms_id": "103120000000007151",
+    "description": "Form of report of an accountant under sub-section (3) of section 50B"
+  },
+  {
+    "rule_number": "7",
+    "cms_id": "103120000000007791",
+    "description": "Income which is partially agricultural and partially from business"
+  },
+  {
+    "rule_number": "7A",
+    "cms_id": "103120000000007159",
+    "description": "Income from the manufacture of rubber"
+  },
+  {
+    "rule_number": "7B",
+    "cms_id": "103120000000007161",
+    "description": "Income from the manufacture of coffee"
+  },
+  {
+    "rule_number": "8",
+    "cms_id": "103120000000007792",
+    "description": "Income from the manufacture of tea"
+  },
+  {
+    "rule_number": "8A",
+    "cms_id": "103120000000007166",
+    "description": "Conditions for the grant of development allowance"
+  },
+  {
+    "rule_number": "8AA",
+    "cms_id": "D690E64F-945E-4066-9984-1A9703AA50FC",
+    "description": "Method of determination of period of holding of capital assets in certain cases"
+  },
+  {
+    "rule_number": "8AB",
+    "cms_id": "103520000000082970",
+    "description": "Attribution of income taxable under sub-section (4) of section 45 to the capital assets remaining with the specified entity, under section 48"
+  },
+  {
+    "rule_number": "8AC",
+    "cms_id": "103520000000083065",
+    "description": "Computation of short term capital gains and written down value under section 50 where depreciation on goodwill has been obtained"
+  },
+  {
+    "rule_number": "8AD",
+    "cms_id": "103520000000088145",
+    "description": "Computation of capital gains for the purposes of sub-section (1B) of section 45"
+  },
+  {
+    "rule_number": "8B",
+    "cms_id": "103120000000007170",
+    "description": "Guidelines for notification of zero coupon bond"
+  },
+  {
+    "rule_number": "8C",
+    "cms_id": "103120000000007172",
+    "description": "Computation of pro rata amount of discount on a zero coupon bond for the purpose of clause (iiia) of sub-section (1) of section 36"
+  },
+  {
+    "rule_number": "8D",
+    "cms_id": "103120000000007173",
+    "description": "Method for determining amount of expenditure in relation to income not includible in total income"
+  },
+  {
+    "rule_number": "9",
+    "cms_id": "103120000000007176",
+    "description": "Royalties or copyright fees, etc., for literary or artistic work"
+  },
+  {
+    "rule_number": "9A",
+    "cms_id": "103120000000007178",
+    "description": "Deduction in respect of expenditure on production of feature films"
+  },
+  {
+    "rule_number": "9B",
+    "cms_id": "103120000000007180",
+    "description": "Deduction in respect of expenditure on acquisition of distribution rights of feature films"
+  },
+  {
+    "rule_number": "9C",
+    "cms_id": "103120000000007182",
+    "description": "Conditions for carrying forward or set-off of accumulated loss and unabsorbed depreciation allowance in case of amalgamation"
+  },
+  {
+    "rule_number": "9D",
+    "cms_id": "103520000000084665",
+    "description": "Calculation of taxable interest relating to contribution in a provident fund or recognised provided fund, exceeding specified limit"
+  },
+  {
+    "rule_number": "10",
+    "cms_id": "103120000000007183",
+    "description": "Determination of income in the case of non-residents"
+  },
+  {
+    "rule_number": "10A",
+    "cms_id": "103120000000007186",
+    "description": "Meaning of expressions used in computation of arm's length price"
+  },
+  {
+    "rule_number": "10AB",
+    "cms_id": "103120000000007188",
+    "description": "Other method of determination of arm's length price"
+  },
+  {
+    "rule_number": "10B",
+    "cms_id": "103120000000007189",
+    "description": "Determination of arm's length price under section 92C"
+  },
+  {
+    "rule_number": "10C",
+    "cms_id": "103120000000007191",
+    "description": "Most appropriate method"
+  },
+  {
+    "rule_number": "10CA",
+    "cms_id": "0B987625-F9F0-417a-BD1D-BBF3EF7A5DDA",
+    "description": "Computation of arm's length price in certain cases"
+  },
+  {
+    "rule_number": "10CB",
+    "cms_id": "103520000000073431",
+    "description": "Computation of interest income pursuant to secondary adjustments"
+  },
+  {
+    "rule_number": "10D",
+    "cms_id": "103120000000007193",
+    "description": "Information and documents to be kept and maintained under section 92D"
+  },
+  {
+    "rule_number": "10DA",
+    "cms_id": "D88BC9E8-80E4-4046-A82F-8A5450FA4DB5",
+    "description": "Maintenance and furnishing of information and document by certain person under section 92D"
+  },
+  {
+    "rule_number": "10DB",
+    "cms_id": "FDCD9815-AB1E-418b-A37F-C4C4B44C1592",
+    "description": "Furnishing of Report in respect of an International Group"
+  },
+  {
+    "rule_number": "10E",
+    "cms_id": "103120000000007195",
+    "description": "Report from an accountant to be furnished under section 92E"
+  },
+  {
+    "rule_number": "10F",
+    "cms_id": "103120000000009745",
+    "description": "Meaning of expressions used in matters in respect of advance pricing agreement"
+  },
+  {
+    "rule_number": "10G",
+    "cms_id": "103120000000007198",
+    "description": "Persons eligible to apply"
+  },
+  {
+    "rule_number": "10H",
+    "cms_id": "103120000000007199",
+    "description": "Pre-filing consultation"
+  },
+  {
+    "rule_number": "10-I",
+    "cms_id": "103120000000007832",
+    "description": "Application for advance pricing agreement"
+  },
+  {
+    "rule_number": "10J",
+    "cms_id": "103120000000007201",
+    "description": "Withdrawal of application for agreement"
+  },
+  {
+    "rule_number": "10K",
+    "cms_id": "103120000000007202",
+    "description": "Preliminary processing of application"
+  },
+  {
+    "rule_number": "10L",
+    "cms_id": "103120000000007203",
+    "description": "Procedure"
+  },
+  {
+    "rule_number": "10M",
+    "cms_id": "103120000000007204",
+    "description": "Terms of the agreement"
+  },
+  {
+    "rule_number": "10MA",
+    "cms_id": "B5BCE8B2-4A33-494b-A814-ACB61C06D147",
+    "description": "Roll Back of the Agreement"
+  },
+  {
+    "rule_number": "10N",
+    "cms_id": "103120000000007205",
+    "description": "Amendments to Application"
+  },
+  {
+    "rule_number": "10-O",
+    "cms_id": "103120000000007206",
+    "description": "Furnishing of Annual Compliance Report"
+  },
+  {
+    "rule_number": "10P",
+    "cms_id": "103120000000007207",
+    "description": "Compliance Audit of the agreement"
+  },
+  {
+    "rule_number": "10Q",
+    "cms_id": "103120000000007208",
+    "description": "Revision of an agreement"
+  },
+  {
+    "rule_number": "10R",
+    "cms_id": "103120000000007209",
+    "description": "Cancellation of an agreement"
+  },
+  {
+    "rule_number": "10RA",
+    "cms_id": "3DA87451-DE63-44f0-8AFB-B7FE2335A356",
+    "description": "Procedure for giving effect to rollback provision of an Agreement"
+  },
+  {
+    "rule_number": "10RB",
+    "cms_id": "103520000000084282",
+    "description": "Relief in tax payable under sub-section (1) of section 115JB due to operation of sub-section (2D) of section 115JB"
+  },
+  {
+    "rule_number": "10S",
+    "cms_id": "103120000000007210",
+    "description": "Renewing an agreement"
+  },
+  {
+    "rule_number": "10T",
+    "cms_id": "103120000000007211",
+    "description": "Miscellaneous"
+  },
+  {
+    "rule_number": "10TA",
+    "cms_id": "103120000000009912",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "10TB",
+    "cms_id": "103120000000009913",
+    "description": "Eligible assessee"
+  },
+  {
+    "rule_number": "10TC",
+    "cms_id": "103120000000009914",
+    "description": "Eligible international transaction"
+  },
+  {
+    "rule_number": "10TD",
+    "cms_id": "103120000000009915",
+    "description": "Safe Harbour"
+  },
+  {
+    "rule_number": "10TE",
+    "cms_id": "103120000000009916",
+    "description": "Procedure"
+  },
+  {
+    "rule_number": "10TF",
+    "cms_id": "103120000000009917",
+    "description": "Safe harbour rules not to apply in certain cases"
+  },
+  {
+    "rule_number": "10TG",
+    "cms_id": "103120000000009919",
+    "description": "Mutual Agreement Procedure not to apply"
+  },
+  {
+    "rule_number": "10TH",
+    "cms_id": "E2DE5CDD-23E7-4BCF-A2E0-EEA6DB48A32E",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "10THA",
+    "cms_id": "9C59D0B7-C0E7-476b-97F6-084ECBC52286",
+    "description": "Eligible assessee"
+  },
+  {
+    "rule_number": "10THB",
+    "cms_id": "72EFF64C-0AC3-44a5-9C92-093F376FA880",
+    "description": "Eligible specified domestic transaction"
+  },
+  {
+    "rule_number": "10THC",
+    "cms_id": "E0532DC5-7A05-402e-9022-B63828205095",
+    "description": "Safe Harbour"
+  },
+  {
+    "rule_number": "10THD",
+    "cms_id": "FA433123-4A93-4102-A5D8-53338235D69F",
+    "description": "Procedure"
+  },
+  {
+    "rule_number": "10TI",
+    "cms_id": "103520000000108259",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "10TIA",
+    "cms_id": "103520000000108260",
+    "description": "Safe Harbour"
+  },
+  {
+    "rule_number": "10TIB",
+    "cms_id": "103520000000108261",
+    "description": "Procedure"
+  },
+  {
+    "rule_number": "10TIC",
+    "cms_id": "103520000000108262",
+    "description": "Mutual Agreement Procedure not to apply"
+  },
+  {
+    "rule_number": "10U",
+    "cms_id": "103120000000009926",
+    "description": "Chapter X-A not to apply in certain cases"
+  },
+  {
+    "rule_number": "10UA",
+    "cms_id": "103120000000009921",
+    "description": "Determination of consequences of impermissible avoidance arrangement"
+  },
+  {
+    "rule_number": "10UB",
+    "cms_id": "103120000000009922",
+    "description": "Notice, Forms for reference under section 144BA"
+  },
+  {
+    "rule_number": "10UC",
+    "cms_id": "103120000000009923",
+    "description": "Time limits"
+  },
+  {
+    "rule_number": "10UD",
+    "cms_id": "103520000000073205",
+    "description": "Reference to the Approving Panel"
+  },
+  {
+    "rule_number": "10UE",
+    "cms_id": "103520000000073206",
+    "description": "Procedure before the Approving Panel"
+  },
+  {
+    "rule_number": "10UF",
+    "cms_id": "103520000000073207",
+    "description": "Remuneration"
+  },
+  {
+    "rule_number": "10V",
+    "cms_id": "570DC7DF-67D6-4971-AF1F-34B3332EE725",
+    "description": "Guidelines for application of section 9A"
+  },
+  {
+    "rule_number": "10VA",
+    "cms_id": "18442D6D-CBEB-44fc-81D0-0EC8331F477A",
+    "description": "Approval of the fund"
+  },
+  {
+    "rule_number": "10VB",
+    "cms_id": "E4E8D339-79CA-4813-A257-231C155C93DB",
+    "description": "Statement to be furnished by the fund"
+  },
+  {
+    "rule_number": "11",
+    "cms_id": "103120000000007212",
+    "description": "Determination of income from transactions with non-residents"
+  },
+  {
+    "rule_number": "11A",
+    "cms_id": "103120000000007835",
+    "description": "Medical authority for certifying autism, cerebral palsy and multiple disabilities and certificate to be obtained from the medical authority for the purposes of deduction under section 80DD and section 80U"
+  },
+  {
+    "rule_number": "11AA",
+    "cms_id": "103120000000007215",
+    "description": "Requirement for approval of institution of fund under clause (vi) of sub-section (5) of section 80G"
+  },
+  {
+    "rule_number": "11B",
+    "cms_id": "103120000000007226",
+    "description": "Conditions for allowance for deduction under section 80GG"
+  },
+  {
+    "rule_number": "11C",
+    "cms_id": "103120000000007228",
+    "description": "Prescribed fields for the purposes of deduction in respect of remuneration received from foreign employers or Indian concerns under section 80RRA"
+  },
+  {
+    "rule_number": "11D",
+    "cms_id": "103120000000007230",
+    "description": "Permanent physical disabilities for the purposes of deduction under section 80U"
+  },
+  {
+    "rule_number": "11DD",
+    "cms_id": "79F2730A-45BD-49ff-9278-D967B9305177",
+    "description": "Specified diseases and ailments for the purpose of deduction under section 80DDB"
+  },
+  {
+    "rule_number": "11E",
+    "cms_id": "103120000000007234",
+    "description": "Application for approval of agreement under section 80-O"
+  },
+  {
+    "rule_number": "11EA",
+    "cms_id": "103120000000007236",
+    "description": "Guidelines for specifying industrially backward districts for the purpose of deduction under 72[sub-section (5) of section 80-IB]"
+  },
+  {
+    "rule_number": "11EE",
+    "cms_id": "103120000000007238",
+    "description": "Form of statement to be furnished under section 115K"
+  },
+  {
+    "rule_number": "11F",
+    "cms_id": "103120000000007240",
+    "description": "General"
+  },
+  {
+    "rule_number": "11G",
+    "cms_id": "103120000000007242",
+    "description": "Composition of the National Committee"
+  },
+  {
+    "rule_number": "11H",
+    "cms_id": "103120000000007244",
+    "description": "Headquarters and Secretariat"
+  },
+  {
+    "rule_number": "11-I",
+    "cms_id": "103120000000007246",
+    "description": "Functions"
+  },
+  {
+    "rule_number": "11J",
+    "cms_id": "103120000000007248",
+    "description": "Guidelines for approval of associations and institutions"
+  },
+  {
+    "rule_number": "11K",
+    "cms_id": "103120000000007249",
+    "description": "Guidelines for recommending projects or schemes"
+  },
+  {
+    "rule_number": "11L",
+    "cms_id": "103120000000007251",
+    "description": "Application for approval of an association or institution or for recommendation of a project or scheme by the National Committee"
+  },
+  {
+    "rule_number": "11M",
+    "cms_id": "103120000000007253",
+    "description": "Procedure before the National Committee"
+  },
+  {
+    "rule_number": "11MA",
+    "cms_id": "103120000000007255",
+    "description": "Form of report by an approved association or institution under clause (ii) of sub-section (4) of section 35AC"
+  },
+  {
+    "rule_number": "11MAA",
+    "cms_id": "103120000000007256a",
+    "description": "Form of report by public sector company or local authority or association or institution, which is carrying out a notified eligible project or scheme, under clause (ii) of sub-section (5) of section 35AC"
+  },
+  {
+    "rule_number": "11N",
+    "cms_id": "103120000000007257",
+    "description": "Other provisions"
+  },
+  {
+    "rule_number": "11-O",
+    "cms_id": "103120000000007259",
+    "description": "Certificate of payment or expenditure in respect of eligible projects or schemes notified under section 35AC"
+  },
+  {
+    "rule_number": "11-OA",
+    "cms_id": "103120000000007261",
+    "description": "Guidelines for notification of affordable housing project as specified business under section 35AD"
+  },
+  {
+    "rule_number": "11-OB",
+    "cms_id": "3511A4DB-8266-4ff9-BD15-1689B986302B",
+    "description": "Guidelines for notification of a semiconductor wafer fabrication manufacturing unit as specified business under section 35AD"
+  },
+  {
+    "rule_number": "11P",
+    "cms_id": "103120000000007262",
+    "description": "Application for exercising or renewing the option for tonnage tax scheme"
+  },
+  {
+    "rule_number": "11Q",
+    "cms_id": "103120000000007263",
+    "description": "Computation of deemed tonnage"
+  },
+  {
+    "rule_number": "11R",
+    "cms_id": "103120000000007264",
+    "description": "Incidental activities for purposes of relevant shipping income"
+  },
+  {
+    "rule_number": "11S",
+    "cms_id": "103120000000007265",
+    "description": "Computation of average of net tonnage for charter-in of tonnage"
+  },
+  {
+    "rule_number": "11T",
+    "cms_id": "103120000000007266",
+    "description": "Form of report of an accountant under clause (ii) of section 115VW"
+  },
+  {
+    "rule_number": "11U",
+    "cms_id": "103120000000007267",
+    "description": "Meaning of expressions used in determination of fair market value"
+  },
+  {
+    "rule_number": "11UA",
+    "cms_id": "103120000000007268",
+    "description": "Determination of fair market value"
+  },
+  {
+    "rule_number": "11UAA",
+    "cms_id": "757CB702-1C2B-4c10-8C52-40475F9FA3F0",
+    "description": "Determination of Fair Market Value for share other than quoted share"
+  },
+  {
+    "rule_number": "11UAB",
+    "cms_id": "2CFFFA64-DE40-44c3-AA0C-29005C5C49B3",
+    "description": "Determination of fair market value for inventory"
+  },
+  {
+    "rule_number": "11UAC",
+    "cms_id": "103520000000073875",
+    "description": "Prescribed class of persons for the purpose of clause (XI) of the proviso to clause (x) of sub-section (2) of section 56"
+  },
+  {
+    "rule_number": "11UACA",
+    "cms_id": "103520000000099834",
+    "description": "Computation of income chargeable to tax under clause (xiii) of sub-section (2) of section 56"
+  },
+  {
+    "rule_number": "11UAD",
+    "cms_id": "103520000000076426",
+    "description": "Prescribed class of persons for the purpose of section 50CA"
+  },
+  {
+    "rule_number": "11UAE",
+    "cms_id": "103520000000082382",
+    "description": "Computation of Fair Market Value of Capital Assets for the purposes of section 50B of the Income-tax Act"
+  },
+  {
+    "rule_number": "11UB",
+    "cms_id": "1DD3161C-07F7-42bc-9B59-5537BD100B50",
+    "description": "Fair market value of assets in certain cases"
+  },
+  {
+    "rule_number": "11UC",
+    "cms_id": "0C00F8D5-4240-4711-BCFC-B99D3C707859",
+    "description": "Determination of Income attributable to assets in India"
+  },
+  {
+    "rule_number": "11UD",
+    "cms_id": "103520000000082161",
+    "description": "Thresholds for the purposes of significant economic presence"
+  },
+  {
+    "rule_number": "11UE",
+    "cms_id": "103520000000085335",
+    "description": "Specified conditions under Explanation to fifth and sixth provisos to Explanation 5 to clause (i) of sub-section (1) of section 9"
+  },
+  {
+    "rule_number": "11UF",
+    "cms_id": "103520000000085336",
+    "description": "Manner of furnishing undertaking under rule 11UE"
+  },
+  {
+    "rule_number": "12",
+    "cms_id": "103120000000007269",
+    "description": "Return of income and return of fringe benefits"
+  },
+  {
+    "rule_number": "12A",
+    "cms_id": "103120000000007837",
+    "description": "Preparation of return by authorised representative"
+  },
+  {
+    "rule_number": "12AA",
+    "cms_id": "103520000000084373",
+    "description": "Prescribed person for the purposes of clause (c) and clause (cd) of section 140"
+  },
+  {
+    "rule_number": "12AB",
+    "cms_id": "103520000000090150",
+    "description": "Conditions for furnishing return of income by persons referred to in clause (b) of sub-section(1) of section 139"
+  },
+  {
+    "rule_number": "12AC",
+    "cms_id": "103520000000090373",
+    "description": "Updated return of income"
+  },
+  {
+    "rule_number": "12AD",
+    "cms_id": "103520000000093115",
+    "description": "Return of income under section 170A"
+  },
+  {
+    "rule_number": "12AE",
+    "cms_id": "103520000000110943",
+    "description": "Return of income under section 158BC"
+  },
+  {
+    "rule_number": "12B",
+    "cms_id": "103120000000007273",
+    "description": "Statement under sub-section (3A) of section 115R"
+  },
+  {
+    "rule_number": "12BA",
+    "cms_id": "103120000000009892",
+    "description": "Statement under sub-section (3) of section 115TA"
+  },
+  {
+    "rule_number": "12C",
+    "cms_id": "103120000000007275",
+    "description": "Statement under sub-section (2) of section 115U"
+  },
+  {
+    "rule_number": "12CA",
+    "cms_id": "BDBFF6BF-C385-4cd2-86BB-4064C667210F",
+    "description": "Statement under sub-section (4) of section 115UA"
+  },
+  {
+    "rule_number": "12CB",
+    "cms_id": "9025F7C3-B4E1-473d-B487-C243E75D5E2C",
+    "description": "Statement under sub-section (7) of section 115UB"
+  },
+  {
+    "rule_number": "12CC",
+    "cms_id": "6AE298A2-A5CF-427b-8AF2-69D98BD593FE",
+    "description": "Statement under sub-section (4) of section 115TCA"
+  },
+  {
+    "rule_number": "12D",
+    "cms_id": "1045ADE6-CEC0-406e-8C9C-2CB5E07EB6A1",
+    "description": "Prescribed income-tax authority under section 133C"
+  },
+  {
+    "rule_number": "12E",
+    "cms_id": "FCF134FE-6D0D-47df-897B-FA8551C3069B",
+    "description": "Prescribed authority under sub-section (2) of section 143"
+  },
+  {
+    "rule_number": "12F",
+    "cms_id": "103520000000084907",
+    "description": "Prescribed income-tax authority under second proviso to clause (i) of sub-section (1) of section 142"
+  },
+  {
+    "rule_number": "13",
+    "cms_id": "103120000000007279",
+    "description": "Procedure to requisition services under sub-section (2) and to make a reference under sub-section (9D) of section 132"
+  },
+  {
+    "rule_number": "13A",
+    "cms_id": "103520000000099971",
+    "description": "Valuation under sub-section (9D) of section 132"
+  },
+  {
+    "rule_number": "14",
+    "cms_id": "103120000000007281",
+    "description": "Form of verification under section 142"
+  },
+  {
+    "rule_number": "14A",
+    "cms_id": "103120000000007283",
+    "description": "Forms for report of audit or inventory valuation under section 142(2A)"
+  },
+  {
+    "rule_number": "14B",
+    "cms_id": "103120000000007285",
+    "description": "Guidelines for the purposes of determining expenses for audit or inventory valuation"
+  },
+  {
+    "rule_number": "14C",
+    "cms_id": "103520000000084743",
+    "description": "Prescribed manner of authentication of an electronic record under electronic verification code under sub-clause (b) of clause (i) of sub-section (7) of section 144B"
+  },
+  {
+    "rule_number": "15",
+    "cms_id": "103120000000007288",
+    "description": "Notice of demand for regular assessment, etc"
+  },
+  {
+    "rule_number": "15A",
+    "cms_id": "103520000000091624",
+    "description": "Declaration under section 158A"
+  },
+  {
+    "rule_number": "16",
+    "cms_id": "103120000000007290",
+    "description": "Application under section 158AB to defer filing of appeal before the Appellate Tribunal or the jurisdictional High Court"
+  },
+  {
+    "rule_number": "16A",
+    "cms_id": "103120000000007850",
+    "description": "Prescribed authority for approving any institution or body established for scientific research"
+  },
+  {
+    "rule_number": "16B",
+    "cms_id": "103120000000007294",
+    "description": "Prescribed authority for the purposes of clauses (8A) and (8B) of section 10"
+  },
+  {
+    "rule_number": "16C",
+    "cms_id": "103120000000007296",
+    "description": "Requirements for approval of a fund under section 10(23AAA)"
+  },
+  {
+    "rule_number": "16CC",
+    "cms_id": "103120000000007297",
+    "description": "Form of report of audit prescribed under tenth proviso to section 10(23C)"
+  },
+  {
+    "rule_number": "16D",
+    "cms_id": "103120000000007298",
+    "description": "Form of report for claiming deduction under section 10AA"
+  },
+  {
+    "rule_number": "16DD",
+    "cms_id": "103120000000007300",
+    "description": "Form of particulars to be furnished along with return of income for claiming deduction under clause (b) of sub-section (1B) of section 10A"
+  },
+  {
+    "rule_number": "16E",
+    "cms_id": "103120000000007301",
+    "description": "Form of report for claiming deduction under section 10B"
+  },
+  {
+    "rule_number": "16F",
+    "cms_id": "103120000000007304",
+    "description": "Form of report for claiming deduction under section 10BA"
+  },
+  {
+    "rule_number": "17",
+    "cms_id": "103120000000007309",
+    "description": "Exercise of option etc. under Explanation 3 to the third proviso to clause (23C) of section 10 or section 11"
+  },
+  {
+    "rule_number": "17A",
+    "cms_id": "103120000000007311",
+    "description": "Application for registration of charitable or religious trusts etc."
+  },
+  {
+    "rule_number": "17AA",
+    "cms_id": "103520000000092133",
+    "description": "Books of account and other documents to be kept and maintained"
+  },
+  {
+    "rule_number": "17B",
+    "cms_id": "103120000000007313",
+    "description": "Audit report in the case of charitable or religious trusts, etc."
+  },
+  {
+    "rule_number": "17C",
+    "cms_id": "103120000000007315",
+    "description": "Forms or modes of investment or deposits by a charitable or religious trust or institution"
+  },
+  {
+    "rule_number": "17CA",
+    "cms_id": "103120000000009096",
+    "description": "Functions of electoral trusts"
+  },
+  {
+    "rule_number": "17CB",
+    "cms_id": "717B75F6-DE0D-4f6a-AFFF-EE6C749C2D07",
+    "description": "Method of valuation for the purposes of sub-section (2) of section 115TD"
+  },
+  {
+    "rule_number": "17D",
+    "cms_id": "103120000000007317",
+    "description": "Prescribed foreign projects for the purposes of deduction in respect of profits and gains from projects outside India under section 80HHB"
+  },
+  {
+    "rule_number": "18",
+    "cms_id": "103120000000007319",
+    "description": "Accommodation and amenities to be provided by hotels"
+  },
+  {
+    "rule_number": "18A",
+    "cms_id": "103120000000007321",
+    "description": "Prescribed authority to certify the daily average number of rehabilitated employees in an industrial undertaking"
+  },
+  {
+    "rule_number": "18AA",
+    "cms_id": "103120000000007323",
+    "description": "Prescribed authority for approval of a hotel under section 80CC"
+  },
+  {
+    "rule_number": "18AAA",
+    "cms_id": "103120000000007325",
+    "description": "Prescribed authority for approval of a University or any educational institution of national eminence for the purpose of section 80G"
+  },
+  {
+    "rule_number": "18AAAA",
+    "cms_id": "103120000000007326",
+    "description": "Prescribed authority for the purpose of receiving separate accounts from trusts or funds or institutions for providing relief to the victims of earthquake in Gujarat"
+  },
+  {
+    "rule_number": "18AAAAA",
+    "cms_id": "103120000000007327",
+    "description": "Guidelines for specifying an association or institution for the purposes of notification under clause (c) of sub-section (2) of section 80G"
+  },
+  {
+    "rule_number": "18AAB",
+    "cms_id": "103120000000007329",
+    "description": "Prescribed authority for approval of companies engaged in Scientific and Industrial Research and Development for the purposes of section 80-IA"
+  },
+  {
+    "rule_number": "18AB",
+    "cms_id": "103520000000080969",
+    "description": "Furnishing of Statement of particulars and certificate under clause (viii) and clause (ix) of sub-section (5) of section 80G or under sub-section (1A) of section 35"
+  },
+  {
+    "rule_number": "18B",
+    "cms_id": "103120000000007331",
+    "description": "Form of audit report for claiming deduction under section 80HH"
+  },
+  {
+    "rule_number": "18BB",
+    "cms_id": "103120000000007333",
+    "description": "Form of audit report for claiming deduction under section 80HHA"
+  },
+  {
+    "rule_number": "18BBA",
+    "cms_id": "103120000000007335",
+    "description": "Form of reports for claiming deduction under section 80HHB or under section 80HHC or under section 80HHD and prescribed authority under section 80HHD"
+  },
+  {
+    "rule_number": "18BBB",
+    "cms_id": "103120000000007336",
+    "description": "Form of audit report for claiming deduction under section 80-I or 80-IA or 99[80-IB or section 80-IC"
+  },
+  {
+    "rule_number": "18BBC",
+    "cms_id": "103120000000007338",
+    "description": "Prescribed authority for approval of hotels located in certain areas"
+  },
+  {
+    "rule_number": "18BBD",
+    "cms_id": "103120000000007340",
+    "description": "Prescribed authority for approval of companies carrying on scientific and industrial research and development"
+  },
+  {
+    "rule_number": "18BBE",
+    "cms_id": "103120000000007342",
+    "description": "Computation of profits of certain activities forming integral part of a highway project for the purpose of section 80-IA"
+  },
+  {
+    "rule_number": "18C",
+    "cms_id": "103120000000007344",
+    "description": "Eligibility of Industrial Parks for benefits under section 80-IA(4)(iii)"
+  },
+  {
+    "rule_number": "18D",
+    "cms_id": "103120000000007346",
+    "description": "Prescribed authority for approval of companies carrying on scientific research and development"
+  },
+  {
+    "rule_number": "18DA",
+    "cms_id": "103120000000007347",
+    "description": "Prescribed conditions for deduction under sub-section (8A) of section 80-IB"
+  },
+  {
+    "rule_number": "18DB",
+    "cms_id": "103120000000007348",
+    "description": "Prescribed area, facilities and amenities for multiplex theatres and particulars of audit report, for deduction under sub-section (7A) and clause (da) of sub-section (14) of section 80-IB"
+  },
+  {
+    "rule_number": "18DC",
+    "cms_id": "103120000000007349",
+    "description": "Prescribed area, facilities and amenities for convention centres and particulars of audit report, for deduction under sub-section (7B) and clause (aa) of sub-section (14) of section 80-IB"
+  },
+  {
+    "rule_number": "18DD",
+    "cms_id": "103120000000007350",
+    "description": "Form of report for claiming deduction under sub-section (11B) of section 80-IB"
+  },
+  {
+    "rule_number": "18DDA",
+    "cms_id": "103120000000007351",
+    "description": "Form of report for claiming deduction under sub-section (11C) of section 80-IB"
+  },
+  {
+    "rule_number": "18DE",
+    "cms_id": "103120000000007352",
+    "description": "Prescribed area, minimum seating capacity, facilities and amenities for convention centres; minimum number of convention halls in the convention centres; and particulars of audit report, for deduction under section 80-ID"
+  },
+  {
+    "rule_number": "19",
+    "cms_id": "103120000000007353",
+    "description": "Computation of capital employed in an industrial undertaking or a hotel"
+  },
+  {
+    "rule_number": "19A",
+    "cms_id": "103120000000007354",
+    "description": "Computation of capital employed in an industrial undertaking or a ship or the business of a hotel for the purposes of section 80J"
+  },
+  {
+    "rule_number": "19AB",
+    "cms_id": "103120000000007355",
+    "description": "Form of report for claiming deduction under section 80JJAA"
+  },
+  {
+    "rule_number": "19AC",
+    "cms_id": "103120000000007356",
+    "description": "Form of certificate to be furnished under sub-section (3) of section 80QQB"
+  },
+  {
+    "rule_number": "19AD",
+    "cms_id": "103120000000007357",
+    "description": "Prescribed authority for purposes of sub-section (2) of section 80RRB and form of certificate to be furnished under sub-section (2) of section 80RRB"
+  },
+  {
+    "rule_number": "19AE",
+    "cms_id": "103120000000007358",
+    "description": "Form of report of accountant to be furnished under sub-section (3) of section 80LA"
+  },
+  {
+    "rule_number": "20",
+    "cms_id": "103120000000007359",
+    "description": "Guidelines for approval 24[under clause (xix) of sub-section (2) of section 80C or] under clause (xvi) of sub-section (2) of section 88"
+  },
+  {
+    "rule_number": "20A",
+    "cms_id": "103120000000007360",
+    "description": "Guidelines for approval 28[under clause (xx) of sub-section (2) of section 80C or] under clause (xvii) of sub-section (2) of section 88"
+  },
+  {
+    "rule_number": "20AB",
+    "cms_id": "103120000000007361",
+    "description": "Evidence of payment of security transaction tax for claiming deduction under section 88E"
+  },
+  {
+    "rule_number": "21",
+    "cms_id": "103120000000007362",
+    "description": "Limits for life insurance premia in the case of authors, etc."
+  },
+  {
+    "rule_number": "21A",
+    "cms_id": "103120000000007363",
+    "description": "Relief when salary is paid in arrears or in advance, etc."
+  },
+  {
+    "rule_number": "21AA",
+    "cms_id": "103120000000007364",
+    "description": "Furnishing of particulars for claiming relief under section 89"
+  },
+  {
+    "rule_number": "21AAA",
+    "cms_id": "103520000000089794",
+    "description": "Taxation of income from retirement benefit account maintained in a notified country"
+  },
+  {
+    "rule_number": "21AB",
+    "cms_id": "103120000000007365",
+    "description": "Certificate for claiming relief under an agreement referred to in sections 90 and 90A"
+  },
+  {
+    "rule_number": "21AC",
+    "cms_id": "103120000000009626",
+    "description": "Furnishing of authorisation and maintenance of documents etc. for the purposes of section 94A"
+  },
+  {
+    "rule_number": "21ACA",
+    "cms_id": "103520000000109697",
+    "description": "Conditions and activities for the Finance Company located in any International Financial Services Centre for section 94B"
+  },
+  {
+    "rule_number": "21AD",
+    "cms_id": "4A3F2A87-D7EB-4621-88AD-1C74D0A01B79",
+    "description": "Exercise of option under sub-section (4) of section 115BA"
+  },
+  {
+    "rule_number": "21AE",
+    "cms_id": "103520000000075759",
+    "description": "Exercise of option under sub-section (5) of section 115BAA"
+  },
+  {
+    "rule_number": "21AF",
+    "cms_id": "103520000000075760",
+    "description": "Exercise of option under sub-section (7) of section 115BAB"
+  },
+  {
+    "rule_number": "21AG",
+    "cms_id": "103520000000077903",
+    "description": "Exercise of option under sub-section (5) of section 115BAC"
+  },
+  {
+    "rule_number": "21AGA",
+    "cms_id": "103520000000098688",
+    "description": "Exercise of option under sub-section (6) of section 115BAC"
+  },
+  {
+    "rule_number": "21AH",
+    "cms_id": "103520000000077906",
+    "description": "Exercise of option under sub-section (5) of section 115BAD"
+  },
+  {
+    "rule_number": "21AHA",
+    "cms_id": "103520000000100235",
+    "description": "Exercise of option under sub-section (5) of section 115BAE"
+  },
+  {
+    "rule_number": "21AI",
+    "cms_id": "103520000000084112",
+    "description": "Computation of exempt income of specified fund for the purposes of clause (4D) of section 10"
+  },
+  {
+    "rule_number": "21AIA",
+    "cms_id": "103520000000091100",
+    "description": "Other conditions required to be fulfilled by a specified fund referred to in clause (4D) of section 10 of the Act"
+  },
+  {
+    "rule_number": "21AJ",
+    "cms_id": "103520000000084113",
+    "description": "Determination of income of a specified fund attributable to units held by non-residents under sub-section (1A) of section 115AD"
+  },
+  {
+    "rule_number": "21AJA",
+    "cms_id": "103520000000087956",
+    "description": "Computation of exempt income of specified fund, attributable to the investment division of an offshore banking unit, for the purposes of clause (4D) of section 10 of the Act"
+  },
+  {
+    "rule_number": "21AJAA",
+    "cms_id": "103520000000087957",
+    "description": "Determination of income of a specified fund attributable to the investment division of an offshore banking unit under sub-section (1B) of section 115AD of the Act"
+  },
+  {
+    "rule_number": "21AK",
+    "cms_id": "103520000000086734",
+    "description": "Conditions for the purpose of clause (4E) of section 10"
+  },
+  {
+    "rule_number": "21AL",
+    "cms_id": "103520000000091544",
+    "description": "Other Conditions required to be fulfilled by the original fund"
+  },
+  {
+    "rule_number": "21B",
+    "cms_id": "103120000000007366",
+    "description": "Relief when interest on securities is received in arrears"
+  },
+  {
+    "rule_number": "22",
+    "cms_id": "103120000000007367",
+    "description": "Application for registration of a firm"
+  },
+  {
+    "rule_number": "23",
+    "cms_id": "103120000000007368",
+    "description": "Intimation regarding subsequent changes in constitution, etc."
+  },
+  {
+    "rule_number": "24",
+    "cms_id": "103120000000007369",
+    "description": "Declaration for continuation of registration"
+  },
+  {
+    "rule_number": "24A",
+    "cms_id": "103120000000007370",
+    "description": "Communication regarding partner who is a benamidar"
+  },
+  {
+    "rule_number": "25",
+    "cms_id": "103120000000007371",
+    "description": "Certificate of registration"
+  },
+  {
+    "rule_number": "26",
+    "cms_id": "103120000000007372",
+    "description": "Rate of exchange for the purpose of deduction of tax at source on income payable in foreign currency"
+  },
+  {
+    "rule_number": "26A",
+    "cms_id": "103120000000007859",
+    "description": "Furnishing of particulars of income under the head \"Salaries\""
+  },
+  {
+    "rule_number": "26B",
+    "cms_id": "103120000000007374",
+    "description": "Statement of particulars of income under heads of income other than \"Salaries\" or details of tax deducted at source or tax collected at source"
+  },
+  {
+    "rule_number": "26C",
+    "cms_id": "78C9EA92-E3D9-43dc-94BF-59774C80347C",
+    "description": "Furnishing of evidence of claims by employee for deduction of tax under section 192"
+  },
+  {
+    "rule_number": "26D",
+    "cms_id": "103520000000084731",
+    "description": "Furnishing of declaration and evidence of claims by specified senior citizen under section 194P"
+  },
+  {
+    "rule_number": "27",
+    "cms_id": "103120000000007375",
+    "description": "Prescribed arrangements for declaration and payment of dividends within India"
+  },
+  {
+    "rule_number": "28",
+    "cms_id": "103120000000007872",
+    "description": "Application for grant of certificates for deduction of income-tax at any lower rates or no deduction of income-tax"
+  },
+  {
+    "rule_number": "28A",
+    "cms_id": "103120000000007377",
+    "description": "Statement by shareholder claiming receipt of dividend without deduction of tax"
+  },
+  {
+    "rule_number": "28AA",
+    "cms_id": "B3515B21-2C0E-42f8-99D3-DEC396BBDB29",
+    "description": "Certificate for deduction at lower rates or no deduction of tax from income other than dividends"
+  },
+  {
+    "rule_number": "28AB",
+    "cms_id": "103120000000007379",
+    "description": "Certificate of no deduction of tax in case of certain entities"
+  },
+  {
+    "rule_number": "29",
+    "cms_id": "103120000000007380",
+    "description": "Certificate of no deduction of tax or deduction at lower rates from dividends"
+  },
+  {
+    "rule_number": "29A",
+    "cms_id": "103120000000007381",
+    "description": "Form of certificate to be furnished along with the return of income under sub-section (4) of section 80QQB, sections 80R, 80RR and 80RRA, and sub-section (3) of section 80RRB and the prescribed authority for the purposes of sub-section (4) of"
+  },
+  {
+    "rule_number": "29AA",
+    "cms_id": "103120000000007382",
+    "description": "Form of certificate to be filed with the return of income for claiming deduction under section 80-O"
+  },
+  {
+    "rule_number": "29B",
+    "cms_id": "103120000000007383",
+    "description": "Application for certificate authorising receipt of interest and other sums without deduction of tax"
+  },
+  {
+    "rule_number": "29BA",
+    "cms_id": "103520000000080528",
+    "description": "Application for grant of certificate for determination of appropriate proportion of sum (other than Salary), payable to non-resident, chargeable in case of the recipients"
+  },
+  {
+    "rule_number": "29C",
+    "cms_id": "103120000000007384",
+    "description": "Declaration by person claiming receipt of certain incomes without deduction of tax"
+  },
+  {
+    "rule_number": "29D",
+    "cms_id": "103120000000007385",
+    "description": "Form of declaration under second proviso/third proviso to clause (i) of sub-section (3) of section 194C"
+  },
+  {
+    "rule_number": "30",
+    "cms_id": "103120000000007386",
+    "description": "Time and mode of payment to Government account of tax deducted at source or tax paid under sub-section (1A) of section 192"
+  },
+  {
+    "rule_number": "30A",
+    "cms_id": "103120000000007387",
+    "description": "Credit for tax deducted at source to a person other than the shareholder in certain circumstances"
+  },
+  {
+    "rule_number": "31",
+    "cms_id": "103120000000009477",
+    "description": "Certificate of tax deducted at source to be furnished under section 203"
+  },
+  {
+    "rule_number": "31A",
+    "cms_id": "103120000000007389",
+    "description": "Statement of deduction of tax under sub-section (3) of section 200"
+  },
+  {
+    "rule_number": "31AA",
+    "cms_id": "103120000000007390",
+    "description": "Statement of collection of tax under proviso to sub-section (3) of section 206C"
+  },
+  {
+    "rule_number": "31AB",
+    "cms_id": "103120000000007391",
+    "description": "Annual Statement of tax deduct or collected or paid"
+  },
+  {
+    "rule_number": "31AC",
+    "cms_id": "103120000000007392",
+    "description": "Maintenance of particulars of time deposits by a banking company for furnishing quarterly return under section 206A"
+  },
+  {
+    "rule_number": "31ACA",
+    "cms_id": "103120000000007393",
+    "description": "Quarterly return under section 206A"
+  },
+  {
+    "rule_number": "31ACB",
+    "cms_id": "103120000000007394",
+    "description": "Form for furnishing certificate of accountant under the first proviso to sub-section (1) of section 201"
+  },
+  {
+    "rule_number": "32",
+    "cms_id": "103120000000007395",
+    "description": "Monthly statement or certificate of deduction of tax from \"Salaries\""
+  },
+  {
+    "rule_number": "33",
+    "cms_id": "103120000000007396",
+    "description": "Statement of deduction of tax from contributions paid by the trustees of an approved superannuation fund"
+  },
+  {
+    "rule_number": "34",
+    "cms_id": "103120000000007397",
+    "description": "Return in lieu of monthly return under rule 32"
+  },
+  {
+    "rule_number": "35",
+    "cms_id": "103120000000007398",
+    "description": "Annual return of salaries paid and tax deducted therefrom"
+  },
+  {
+    "rule_number": "36",
+    "cms_id": "103120000000007399",
+    "description": "Prescribed persons for section 206"
+  },
+  {
+    "rule_number": "36A",
+    "cms_id": "103120000000007400",
+    "description": "Prescribed authority for purposes of section 206"
+  },
+  {
+    "rule_number": "37",
+    "cms_id": "103120000000007401",
+    "description": "Prescribed returns regarding tax deducted at source under section 206"
+  },
+  {
+    "rule_number": "37A",
+    "cms_id": "103120000000007402",
+    "description": "Returns regarding tax deducted at source in the case of non-residents"
+  },
+  {
+    "rule_number": "37AA",
+    "cms_id": "103120000000007403",
+    "description": "Return of interest paid to residents without deduction of tax."
+  },
+  {
+    "rule_number": "37B",
+    "cms_id": "103120000000007404",
+    "description": "Returns regarding tax deducted at source on computer media under sub-section (2) of section 206"
+  },
+  {
+    "rule_number": "37BA",
+    "cms_id": "103120000000007405",
+    "description": "Credit for tax deducted at source for the purposes of section 199"
+  },
+  {
+    "rule_number": "37BB",
+    "cms_id": "103120000000007406",
+    "description": "Furnishing of information for payment to a non-resident, not being a company, or to a foreign company"
+  },
+  {
+    "rule_number": "37BC",
+    "cms_id": "58868F27-E5E8-44a3-AD44-D486BFDB684A",
+    "description": "Relaxation from deduction of tax at higher rate under section 206AA"
+  },
+  {
+    "rule_number": "37C",
+    "cms_id": "103120000000007407",
+    "description": "Declaration by a buyer for no collection of tax at source under section 206C(1A)"
+  },
+  {
+    "rule_number": "37CA",
+    "cms_id": "103120000000007408",
+    "description": "Time and mode of payment to Government account of tax collected at source under section 206C"
+  },
+  {
+    "rule_number": "37CB",
+    "cms_id": "67A72FC6-4320-4a51-8D02-CE768FDE381F",
+    "description": "Class or classes of buyers to whom provisions of sub-section (1D) of section 206C shall not apply"
+  },
+  {
+    "rule_number": "37D",
+    "cms_id": "103120000000007409",
+    "description": "Certificate of tax collected at source under section 206C(5)"
+  },
+  {
+    "rule_number": "37E",
+    "cms_id": "103120000000007410",
+    "description": "Prescribed returns regarding tax collected at source under section 206C(5A)"
+  },
+  {
+    "rule_number": "37EA",
+    "cms_id": "103120000000007411",
+    "description": "Returns regarding tax collected at source on computer media under sub-section (5B) of section 206C"
+  },
+  {
+    "rule_number": "37F",
+    "cms_id": "103120000000007412",
+    "description": "Prescribed authority for purposes of section 206C(5A)"
+  },
+  {
+    "rule_number": "37G",
+    "cms_id": "103120000000007413",
+    "description": "Application for certificate for collection of tax at lower rates under sub-section (9) of section 206C"
+  },
+  {
+    "rule_number": "37H",
+    "cms_id": "103120000000007414",
+    "description": "Certificate for collection of tax at lower rates from buyer under sub-section (9) of section 206C"
+  },
+  {
+    "rule_number": "37-I",
+    "cms_id": "103120000000007415",
+    "description": "Credit for tax collected at source for the purposes of sub-section (4) of section 206C"
+  },
+  {
+    "rule_number": "37J",
+    "cms_id": "103120000000007416",
+    "description": "Form for furnishing certificate of accountant under the first proviso to sub-section (6A) of section 206C"
+  },
+  {
+    "rule_number": "38",
+    "cms_id": "103120000000007417",
+    "description": "Notice of demand"
+  },
+  {
+    "rule_number": "38A",
+    "cms_id": "103120000000007418",
+    "description": "Statement of advance tax"
+  },
+  {
+    "rule_number": "39",
+    "cms_id": "103120000000007419",
+    "description": "Estimate of advance tax"
+  },
+  {
+    "rule_number": "40",
+    "cms_id": "103120000000007900",
+    "description": "Waiver of interest"
+  },
+  {
+    "rule_number": "40A",
+    "cms_id": "103120000000007421",
+    "description": "Claim for credit"
+  },
+  {
+    "rule_number": "40B",
+    "cms_id": "103120000000007422",
+    "description": "Special provision for payment of tax by certain companies"
+  },
+  {
+    "rule_number": "40BA",
+    "cms_id": "103120000000007423",
+    "description": "Special provisions for payment of tax by certain persons other than a company"
+  },
+  {
+    "rule_number": "40BB",
+    "cms_id": "F401E6B9-5E65-4f4a-A187-C99C899B0C06",
+    "description": "Amount received by the company in respect of issue of share"
+  },
+  {
+    "rule_number": "40C",
+    "cms_id": "103120000000007424",
+    "description": "Valuation of specified security or sweat equity share being a share in the company"
+  },
+  {
+    "rule_number": "40D",
+    "cms_id": "103120000000007425",
+    "description": "Valuation of specified security not being an equity share in the company"
+  },
+  {
+    "rule_number": "40E",
+    "cms_id": "103120000000007426",
+    "description": "Prescribed conditions for the purposes of sub-clause (iii) of clause (B) of sub-section (2) of section 115WB"
+  },
+  {
+    "rule_number": "40F",
+    "cms_id": "103120000000007427",
+    "description": "Part VIIC not to apply after a certain date"
+  },
+  {
+    "rule_number": "40G",
+    "cms_id": "103520000000092164",
+    "description": "Refund claim under section 239A"
+  },
+  {
+    "rule_number": "41",
+    "cms_id": "103120000000007428",
+    "description": "Refund claim"
+  },
+  {
+    "rule_number": "42",
+    "cms_id": "103120000000007429",
+    "description": "Prescribed authority for tax clearance certificates"
+  },
+  {
+    "rule_number": "43",
+    "cms_id": "103120000000007430",
+    "description": "Forms and certificates for the purpose of sub-sections (1) and (1A) of section 230"
+  },
+  {
+    "rule_number": "44",
+    "cms_id": "103120000000007431",
+    "description": "Production of certificate"
+  },
+  {
+    "rule_number": "44A",
+    "cms_id": "103120000000007432",
+    "description": "Application for tax clearance certificate for registration of documents in certain cases"
+  },
+  {
+    "rule_number": "44B",
+    "cms_id": "103120000000007433",
+    "description": "Grant of tax clearance certificate or refusal"
+  },
+  {
+    "rule_number": "44C",
+    "cms_id": "103120000000007434",
+    "description": "Form of application for settlement of case 73[and intimation to the Assessing Officer"
+  },
+  {
+    "rule_number": "44CA",
+    "cms_id": "103120000000007435",
+    "description": "Disclosure of information in the application for settlement of cases"
+  },
+  {
+    "rule_number": "44D",
+    "cms_id": "103120000000007436",
+    "description": "Fee for furnishing copy of report"
+  },
+  {
+    "rule_number": "44DA",
+    "cms_id": "103520000000082039",
+    "description": "Exercise of option under sub-section (1) of section 245M and intimation thereof"
+  },
+  {
+    "rule_number": "44DAA",
+    "cms_id": "103520000000089801",
+    "description": "Constitution of Dispute Resolution Committee"
+  },
+  {
+    "rule_number": "44DAB",
+    "cms_id": "103520000000089802",
+    "description": "Application for resolution of dispute before the Dispute Resolution Committee"
+  },
+  {
+    "rule_number": "44DAC",
+    "cms_id": "103520000000089803",
+    "description": "Power to reduce or waive penalty imposable or grant immunity from prosecution or both under the Act"
+  },
+  {
+    "rule_number": "44DAD",
+    "cms_id": "103520000000089804",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "44E",
+    "cms_id": "103120000000007437",
+    "description": "Application for obtaining an advance ruling"
+  },
+  {
+    "rule_number": "44F",
+    "cms_id": "103120000000007438",
+    "description": "Certification of copies of the advance rulings pronounced by the Board"
+  },
+  {
+    "rule_number": "44FA",
+    "cms_id": "103520000000090702",
+    "description": "Form and manner of filing appeal to the High Court on ruling pronounced or order passed by the Board for Advance Rulings under sub-section (1) of section 245W"
+  },
+  {
+    "rule_number": "44G",
+    "cms_id": "103120000000007439",
+    "description": "Application seeking to give effect to the terms of any agreement under clause (h) of sub-section (2) of section 295 and the procedure for giving effect to the decision under the Agreement"
+  },
+  {
+    "rule_number": "44GA",
+    "cms_id": "103120000000007440",
+    "description": "Procedure to deal with requests for bilateral or multilateral advance pricing agreements"
+  },
+  {
+    "rule_number": "44H",
+    "cms_id": "103120000000007441",
+    "description": "Action by the Competent Authority of India and procedure for giving effect to the decision under the agreement"
+  },
+  {
+    "rule_number": "45",
+    "cms_id": "103120000000007908",
+    "description": "Form of appeal to Joint Commissioner (Appeals) or Commissioner (Appeals)"
+  },
+  {
+    "rule_number": "46",
+    "cms_id": "103120000000007443",
+    "description": "Mode of service"
+  },
+  {
+    "rule_number": "46A",
+    "cms_id": "103120000000007444",
+    "description": "Production of additional evidence before the Joint Commissioner (Appeals) and Commissioner (Appeals)"
+  },
+  {
+    "rule_number": "47",
+    "cms_id": "103120000000007445",
+    "description": "Form of appeal and memorandum of cross-objections to Appellate Tribunal"
+  },
+  {
+    "rule_number": "48",
+    "cms_id": "103120000000007446",
+    "description": "Form of application for reference to High Court"
+  },
+  {
+    "rule_number": "48A",
+    "cms_id": "103120000000007447",
+    "description": "Notice of demand"
+  },
+  {
+    "rule_number": "48B",
+    "cms_id": "103120000000007448",
+    "description": "Estimate of advance deposit"
+  },
+  {
+    "rule_number": "48C",
+    "cms_id": "103120000000007449",
+    "description": "Estimate of annuity deposit for the assessment year 1964-65"
+  },
+  {
+    "rule_number": "48D",
+    "cms_id": "103120000000007450",
+    "description": "Jurisdiction of competent authorities"
+  },
+  {
+    "rule_number": "48DD",
+    "cms_id": "103120000000007451",
+    "description": "Statement to be registered with the competent authority under section 269AB"
+  },
+  {
+    "rule_number": "48E",
+    "cms_id": "103120000000007452",
+    "description": "Manner of publication of notice for acquisition"
+  },
+  {
+    "rule_number": "48F",
+    "cms_id": "103120000000007453",
+    "description": "Form of appeal to the Appellate Tribunal"
+  },
+  {
+    "rule_number": "48G",
+    "cms_id": "103120000000007454",
+    "description": "Statement to be furnished in respect of transfers of immovable property"
+  },
+  {
+    "rule_number": "48H",
+    "cms_id": "103120000000007455",
+    "description": "Form of fortnightly return to be forwarded by registering officer to the competent authority"
+  },
+  {
+    "rule_number": "48-I",
+    "cms_id": "103120000000007456",
+    "description": "Rate of interest for determination of discounted value of consideration"
+  },
+  {
+    "rule_number": "48J",
+    "cms_id": "103120000000007457",
+    "description": "Jurisdiction of appropriate authority"
+  },
+  {
+    "rule_number": "48K",
+    "cms_id": "103120000000007458",
+    "description": "Value of immovable property"
+  },
+  {
+    "rule_number": "48L",
+    "cms_id": "103120000000007459",
+    "description": "Statement to be furnished under section 269UC(3"
+  },
+  {
+    "rule_number": "49",
+    "cms_id": "103120000000007916",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "50",
+    "cms_id": "103120000000007461",
+    "description": "Accountancy examinations recognised"
+  },
+  {
+    "rule_number": "51",
+    "cms_id": "103120000000007462",
+    "description": "Educational qualifications prescribed"
+  },
+  {
+    "rule_number": "51A",
+    "cms_id": "E2D4BAE7-7013-4c64-A431-391E5DC8B2C0",
+    "description": "Nature of business relationship"
+  },
+  {
+    "rule_number": "51B",
+    "cms_id": "103520000000084374",
+    "description": "Appearance by Authorised Representative in certain cases"
+  },
+  {
+    "rule_number": "52",
+    "cms_id": "103120000000007463",
+    "description": "Prescribed authority for section 288(5)(b)"
+  },
+  {
+    "rule_number": "53",
+    "cms_id": "103120000000007464",
+    "description": "Register of income-tax practitioners"
+  },
+  {
+    "rule_number": "54",
+    "cms_id": "103120000000007465",
+    "description": "Application for registration"
+  },
+  {
+    "rule_number": "55",
+    "cms_id": "103120000000007466",
+    "description": "Certificate of registration"
+  },
+  {
+    "rule_number": "56",
+    "cms_id": "103120000000007924",
+    "description": "Cancellation of certificate"
+  },
+  {
+    "rule_number": "57",
+    "cms_id": "103120000000007468",
+    "description": "Cancellation of certificate obtained by misrepresentation"
+  },
+  {
+    "rule_number": "58",
+    "cms_id": "103120000000007469",
+    "description": "Removal of name of authorised income-tax practitioner who is insolvent or on whom penalty has been imposed"
+  },
+  {
+    "rule_number": "59",
+    "cms_id": "103120000000007942",
+    "description": "Prescribed authority to order an inquiry"
+  },
+  {
+    "rule_number": "60",
+    "cms_id": "103120000000007471",
+    "description": "Charge-sheet"
+  },
+  {
+    "rule_number": "61",
+    "cms_id": "103120000000007472",
+    "description": "Inquiry Officer"
+  },
+  {
+    "rule_number": "62",
+    "cms_id": "103120000000007473",
+    "description": "Proceedings before Inquiry Officer"
+  },
+  {
+    "rule_number": "63",
+    "cms_id": "103120000000007474",
+    "description": "Order of the prescribed authority"
+  },
+  {
+    "rule_number": "64",
+    "cms_id": "103120000000007475",
+    "description": "Procedure if no Inquiry Officer appointed"
+  },
+  {
+    "rule_number": "65",
+    "cms_id": "103120000000007476",
+    "description": "Change of Inquiry Officer"
+  },
+  {
+    "rule_number": "66",
+    "cms_id": "103120000000007477",
+    "description": "Powers of prescribed authority and Inquiry Officer"
+  },
+  {
+    "rule_number": "67",
+    "cms_id": "103120000000007478",
+    "description": "Investment of fund moneys"
+  },
+  {
+    "rule_number": "67A",
+    "cms_id": "103120000000007479",
+    "description": "Nomination"
+  },
+  {
+    "rule_number": "68",
+    "cms_id": "103120000000007480",
+    "description": "Circumstances in which withdrawals may be permitted"
+  },
+  {
+    "rule_number": "69",
+    "cms_id": "103120000000007481",
+    "description": "Conditions for withdrawal for various purposes"
+  },
+  {
+    "rule_number": "70",
+    "cms_id": "103120000000007482",
+    "description": "Second withdrawal"
+  },
+  {
+    "rule_number": "71",
+    "cms_id": "103120000000007483",
+    "description": "Repayment of amounts withdrawn"
+  },
+  {
+    "rule_number": "71A",
+    "cms_id": "103120000000007484",
+    "description": "Certain rules not to apply"
+  },
+  {
+    "rule_number": "72",
+    "cms_id": "103120000000007485",
+    "description": "Amount withdrawn but not repaid may be deemed as income"
+  },
+  {
+    "rule_number": "73",
+    "cms_id": "103120000000007486",
+    "description": "Withdrawal within twelve months before retirement"
+  },
+  {
+    "rule_number": "74",
+    "cms_id": "103120000000007487",
+    "description": "Accounts"
+  },
+  {
+    "rule_number": "75",
+    "cms_id": "103120000000007488",
+    "description": "Limits for contributions"
+  },
+  {
+    "rule_number": "76",
+    "cms_id": "103120000000007489",
+    "description": "Penalty for assigning or creating a charge on beneficial interest"
+  },
+  {
+    "rule_number": "77",
+    "cms_id": "103120000000007490",
+    "description": "Application for recognition"
+  },
+  {
+    "rule_number": "78",
+    "cms_id": "103120000000007491",
+    "description": "Order of recognition"
+  },
+  {
+    "rule_number": "79",
+    "cms_id": "103120000000007492",
+    "description": "Withdrawal of recognition"
+  },
+  {
+    "rule_number": "80",
+    "cms_id": "103120000000007493",
+    "description": "Exemption from tax when recognition withdrawn"
+  },
+  {
+    "rule_number": "81",
+    "cms_id": "103120000000007494",
+    "description": "Appeal"
+  },
+  {
+    "rule_number": "82",
+    "cms_id": "103120000000007495",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "83",
+    "cms_id": "103120000000007496",
+    "description": "Establishment of fund and trust"
+  },
+  {
+    "rule_number": "84",
+    "cms_id": "103120000000007497",
+    "description": "Conditions regarding trustees"
+  },
+  {
+    "rule_number": "85",
+    "cms_id": "103120000000007498",
+    "description": "Investment of fund moneys"
+  },
+  {
+    "rule_number": "86",
+    "cms_id": "103120000000007499",
+    "description": "Admission of directors to a fund"
+  },
+  {
+    "rule_number": "87",
+    "cms_id": "103120000000007500",
+    "description": "Ordinary annual contributions"
+  },
+  {
+    "rule_number": "88",
+    "cms_id": "103120000000007501",
+    "description": "Initial contributions"
+  },
+  {
+    "rule_number": "89",
+    "cms_id": "103120000000007502",
+    "description": "Scheme of insurance or annuity"
+  },
+  {
+    "rule_number": "90",
+    "cms_id": "103120000000007503",
+    "description": "Commutation of annuity"
+  },
+  {
+    "rule_number": "91",
+    "cms_id": "103120000000007504",
+    "description": "Beneficiary not to have any interest in insurance and employer not to have any interest in fund's moneys"
+  },
+  {
+    "rule_number": "92",
+    "cms_id": "103120000000007505",
+    "description": "Penalty if employee assigns or charges interest in fund"
+  },
+  {
+    "rule_number": "93",
+    "cms_id": "103120000000007506",
+    "description": "Arrangements on winding up, etc., of business."
+  },
+  {
+    "rule_number": "94",
+    "cms_id": "103120000000007507",
+    "description": "Arrangements for winding up, etc., of fund."
+  },
+  {
+    "rule_number": "95",
+    "cms_id": "103120000000007508",
+    "description": "Application for approval"
+  },
+  {
+    "rule_number": "96",
+    "cms_id": "103120000000007509",
+    "description": "Amendment of rules, etc., of fund"
+  },
+  {
+    "rule_number": "97",
+    "cms_id": "103120000000007510",
+    "description": "Appeal"
+  },
+  {
+    "rule_number": "98",
+    "cms_id": "103120000000007511",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "99",
+    "cms_id": "103120000000007512",
+    "description": "Establishment of fund and trust"
+  },
+  {
+    "rule_number": "100",
+    "cms_id": "103120000000007513",
+    "description": "Conditions regarding trustees"
+  },
+  {
+    "rule_number": "101",
+    "cms_id": "103120000000007514",
+    "description": "Investment of fund moneys"
+  },
+  {
+    "rule_number": "101A",
+    "cms_id": "103120000000007515",
+    "description": "Nomination"
+  },
+  {
+    "rule_number": "102",
+    "cms_id": "103120000000007516",
+    "description": "Admission of directors to a fund"
+  },
+  {
+    "rule_number": "103",
+    "cms_id": "103120000000007517",
+    "description": "Ordinary annual contributions"
+  },
+  {
+    "rule_number": "104",
+    "cms_id": "103120000000007518",
+    "description": "Initial contributions"
+  },
+  {
+    "rule_number": "105",
+    "cms_id": "103120000000007519",
+    "description": "Penalty if employee assigns or charges interest in fund"
+  },
+  {
+    "rule_number": "106",
+    "cms_id": "103120000000007520",
+    "description": "Employer not to have interest in fund moneys"
+  },
+  {
+    "rule_number": "107",
+    "cms_id": "103120000000007521",
+    "description": "Arrangements for winding up, etc., of business"
+  },
+  {
+    "rule_number": "108",
+    "cms_id": "103120000000007522",
+    "description": "Arrangements for winding up of the fund"
+  },
+  {
+    "rule_number": "109",
+    "cms_id": "103120000000007523",
+    "description": "Application for approval"
+  },
+  {
+    "rule_number": "110",
+    "cms_id": "103120000000007524",
+    "description": "Amendment of rules, etc., of fund"
+  },
+  {
+    "rule_number": "111",
+    "cms_id": "103120000000007525",
+    "description": "Appeal"
+  },
+  {
+    "rule_number": "111A",
+    "cms_id": "103120000000007526",
+    "description": "Application for reduction of the amount of minimum distribution by a company"
+  },
+  {
+    "rule_number": "111AA",
+    "cms_id": "103120000000007527",
+    "description": "Conditions for reference to Valuation Officers"
+  },
+  {
+    "rule_number": "111AB",
+    "cms_id": "103120000000007528",
+    "description": "Form of report of valuation by registered valuer"
+  },
+  {
+    "rule_number": "111B",
+    "cms_id": "103120000000007529",
+    "description": "Publication and circulation of Board's order"
+  },
+  {
+    "rule_number": "112",
+    "cms_id": "103120000000007530",
+    "description": "Search and seizure"
+  },
+  {
+    "rule_number": "112A",
+    "cms_id": "103120000000007531",
+    "description": "Inquiry under section 132"
+  },
+  {
+    "rule_number": "112B",
+    "cms_id": "103120000000007532",
+    "description": "Release of articles under section 132(5)"
+  },
+  {
+    "rule_number": "112C",
+    "cms_id": "103120000000007533",
+    "description": "Release of remaining assets"
+  },
+  {
+    "rule_number": "112D",
+    "cms_id": "103120000000007534",
+    "description": "Requisition of books of account, etc."
+  },
+  {
+    "rule_number": "112E",
+    "cms_id": "103120000000007535",
+    "description": "Form of information under section 133B(1)"
+  },
+  {
+    "rule_number": "112F",
+    "cms_id": "103120000000007536",
+    "description": "Class or classes of cases in which the Assessing Officer shall not be required to issue notice for assessment or reassessment of the total income for six assessment years immediately preceding the assessment year."
+  },
+  {
+    "rule_number": "113",
+    "cms_id": "103120000000007537",
+    "description": "Disclosure of information respecting assessees"
+  },
+  {
+    "rule_number": "114",
+    "cms_id": "103120000000007538",
+    "description": "Application for allotment of a permanent account number"
+  },
+  {
+    "rule_number": "114A",
+    "cms_id": "103120000000007539",
+    "description": "Application for allotment of a tax deduction and collection account number"
+  },
+  {
+    "rule_number": "114AA",
+    "cms_id": "103120000000007540",
+    "description": "Application for allotment of a tax collection account number"
+  },
+  {
+    "rule_number": "114AAA",
+    "cms_id": "103520000000075643",
+    "description": "Manner of making permanent account number inoperative"
+  },
+  {
+    "rule_number": "114AAB",
+    "cms_id": "103520000000076862",
+    "description": "Class or classes of person to whom provisions of section 139A shall not apply"
+  },
+  {
+    "rule_number": "114B",
+    "cms_id": "103120000000007541",
+    "description": "Transactions in relation to which permanent account number is to be quoted in all documents for the purpose of clause (c) of sub-section (5) of section 139A"
+  },
+  {
+    "rule_number": "114BA",
+    "cms_id": "103520000000090514",
+    "description": "Transactions for the purposes of clause (vii) of sub-section (1) of section 139A"
+  },
+  {
+    "rule_number": "114BB",
+    "cms_id": "103520000000090515",
+    "description": "Transactions for the purposes of sub-section (6A) of section 139A and prescribed person for the purposes of clause (ab) of Explanation to section 139A"
+  },
+  {
+    "rule_number": "114C",
+    "cms_id": "103120000000007542",
+    "description": "Verification of Permanent Account Number in transactions specified in rule 114B"
+  },
+  {
+    "rule_number": "114D",
+    "cms_id": "103120000000007543",
+    "description": "Time and manner in which persons referred to in rule 114C shall furnish a statement containing particulars of Form No. 60"
+  },
+  {
+    "rule_number": "114DA",
+    "cms_id": "103120000000007544",
+    "description": "Furnishing of Annual Statement by a non-resident having Liaison Office in India"
+  },
+  {
+    "rule_number": "114DB",
+    "cms_id": "5530A485-AC4E-477a-B172-00EFF9F75F19",
+    "description": "Information or documents to be furnished under section 285A"
+  },
+  {
+    "rule_number": "114E",
+    "cms_id": "103120000000007545",
+    "description": "Furnishing of statement of financial transaction"
+  },
+  {
+    "rule_number": "114F",
+    "cms_id": "561D852E-D39D-4315-8117-675C1EDC4492",
+    "description": "Definitions"
+  },
+  {
+    "rule_number": "114G",
+    "cms_id": "15030C30-7043-46f5-9F8A-A3CDBE1C4E44",
+    "description": "Information to be maintained and reported"
+  },
+  {
+    "rule_number": "114H",
+    "cms_id": "B1074B39-F28C-4feb-8E18-7BAF762CA7EF",
+    "description": "Due diligence requirement"
+  },
+  {
+    "rule_number": "114-I",
+    "cms_id": "103520000000076118",
+    "description": "Annual Information Statement"
+  },
+  {
+    "rule_number": "115",
+    "cms_id": "103120000000007546",
+    "description": "Rate of exchange for conversion into rupees of income expressed in foreign currency."
+  },
+  {
+    "rule_number": "115A",
+    "cms_id": "103120000000007547",
+    "description": "Rate of exchange for conversion of rupees into foreign currency and reconversion of foreign currency into rupees for the purpose of computation of capital gains under the proviso to clause (a) of sub-section (1) of section 48 of the Income-tax Act,"
+  },
+  {
+    "rule_number": "116",
+    "cms_id": "103120000000007548",
+    "description": "Return of interest paid"
+  },
+  {
+    "rule_number": "117",
+    "cms_id": "103120000000007549",
+    "description": "Return of dividends paid"
+  },
+  {
+    "rule_number": "117A",
+    "cms_id": "103120000000007550",
+    "description": "Reduction or waiver of interest payable under section 139"
+  },
+  {
+    "rule_number": "117B",
+    "cms_id": "103120000000007551",
+    "description": "Form of statement under section 222 or section 223"
+  },
+  {
+    "rule_number": "117C",
+    "cms_id": "103120000000007552",
+    "description": "Tax Recovery Officer to exercise or perform certain powers and functions of an Assessing Officer"
+  },
+  {
+    "rule_number": "118",
+    "cms_id": "103120000000007553",
+    "description": "Levy of interest under section 220(2) where a recovery certificate is not issued"
+  },
+  {
+    "rule_number": "119",
+    "cms_id": "103120000000007554",
+    "description": "Levy of interest under section 220(2) in a case where a recovery certificate is issued"
+  },
+  {
+    "rule_number": "119A",
+    "cms_id": "103120000000007555",
+    "description": "Procedure to be followed in calculating interest"
+  },
+  {
+    "rule_number": "119AA",
+    "cms_id": "103520000000074927",
+    "description": "Modes of payment for the purpose of section 269SU"
+  },
+  {
+    "rule_number": "120",
+    "cms_id": "103120000000007556",
+    "description": "Form for furnishing particulars by contractor"
+  },
+  {
+    "rule_number": "121",
+    "cms_id": "103120000000007557",
+    "description": "Procedure for imposition of fine"
+  },
+  {
+    "rule_number": "121A",
+    "cms_id": "103120000000007558",
+    "description": "Form of statement to be furnished by producers of cinematograph films or persons engaged in specified activity"
+  },
+  {
+    "rule_number": "122",
+    "cms_id": "103120000000007559",
+    "description": "Notice in respect of properties held benami"
+  },
+  {
+    "rule_number": "123",
+    "cms_id": "103120000000007560",
+    "description": "Application for obtaining certified copies of certain notices"
+  },
+  {
+    "rule_number": "124",
+    "cms_id": "103120000000007561",
+    "description": "Fees for obtaining certified copy of notice"
+  },
+  {
+    "rule_number": "125",
+    "cms_id": "103120000000007562",
+    "description": "Electronic payment of tax"
+  },
+  {
+    "rule_number": "126",
+    "cms_id": "374533CB-1645-4fad-898E-CD37FDA08AFE",
+    "description": "Computation of period of stay in India in certain cases"
+  },
+  {
+    "rule_number": "127",
+    "cms_id": "D59FC551-1C01-4dda-A192-371170C90FC9",
+    "description": "Service of notice, summons, requisition, order and other communication"
+  },
+  {
+    "rule_number": "127A",
+    "cms_id": "7AF031B9-0CC1-4846-ACC3-43498C04F776",
+    "description": "Authentication of notices and other documents"
+  },
+  {
+    "rule_number": "128",
+    "cms_id": "3A21C817-584D-4c95-8BDE-78F6E41B01EE",
+    "description": "Foreign Tax Credit"
+  },
+  {
+    "rule_number": "129",
+    "cms_id": "CDCF6766-308E-4288-B9B7-79FE38A55701",
+    "description": "Form of application under section 270AA"
+  },
+  {
+    "rule_number": "130",
+    "cms_id": "103520000000083839",
+    "description": "Omission of certain rules and Forms and savings"
+  },
+  {
+    "rule_number": "131",
+    "cms_id": "103520000000083840",
+    "description": "Electronic furnishing of Forms, Returns, Statements, Reports, orders etc."
+  },
+  {
+    "rule_number": "132",
+    "cms_id": "103520000000093306",
+    "description": "Application for recomputation of income under sub-section (18) of section 155"
+  },
+  {
+    "rule_number": "133",
+    "cms_id": "103520000000097961",
+    "description": "Calculation of net winnings from online games for purpose of section 115BBJ"
+  },
+  {
+    "rule_number": "134",
+    "cms_id": "103520000000099975",
+    "description": "Application under sub-section (20) of section 155 regarding credit of tax deduction at source"
+  },
+  {
+    "rule_number": "NEW APPENDIX I",
+    "cms_id": "B5CE7486-A119-48e1-996A-D52A73F338EB",
+    "description": "NEW APPENDIX I"
+  },
+  {
+    "rule_number": "OLD APPENDIX I",
+    "cms_id": "103120000000007564",
+    "description": "OLD APPENDIX I"
+  },
+  {
+    "rule_number": "OLD APPENDIX I",
+    "cms_id": "103120000000007565",
+    "description": "OLD APPENDIX I"
+  },
+  {
+    "rule_number": "OLD APPENDIX I",
+    "cms_id": "103120000000007566",
+    "description": "OLD APPENDIX I"
+  },
+  {
+    "rule_number": "APPENDIX IA",
+    "cms_id": "103120000000007567",
+    "description": "APPENDIX IA"
+  },
+  {
+    "rule_number": "APPENDIX II",
+    "cms_id": "103520000000089324",
+    "description": "APPENDIX II"
+  },
+  {
+    "rule_number": "APPENDIX III",
+    "cms_id": "103120000000007568",
+    "description": "APPENDIX III"
+  },
+  {
+    "rule_number": "APPENDIX IV",
+    "cms_id": "103520000000089326",
+    "description": "APPENDIX IV"
+  }
+]

@@ -1,0 +1,15 @@
+# Rule 112D — Income Tax Rules, 1962
+
+**Title:** Requisition of books of account, etc.
+
+---
+
+**Requisition of books of account, etc.**
+
+**112D.** (1) The authorisation under sub-section (1) of section 132A by the Director General or Director or the Chief Commissioner or Commissioner shall be in Form No. 45C, shall be in writing under the signature of the officer issuing the authorisation and shall bear his seal.
+
+(2) The officer authorised to make a requisition under sub-section (1) of section 132A (hereinafter referred to as the requisitioning officer) shall make the requisition in writing to the officer or authority referred to in clause (*a*) or clause (*b*) or, as the case may be, clause (*c*) of the said sub-section (hereinafter referred to as the delivering officer or authority) calling upon the delivering officer or authority to deliver the books of account, other documents or assets specified in the requisition to him. The requisition shall be accompanied by a copy of the authorisation in Form No. 45C. A copy of the requisition, along with a copy of the authorisation in Form No. 45C, shall be forwarded to the person referred to in clause (*a*) or clause (*b*) or, as the case may be, clause (*c*) of sub-section (1) of section 132A.
+
+(3) The delivering officer or authority shall prepare a list of the books of account or other documents delivered to the requisitioning officer. Before effecting delivery of any bullion, jewellery or other valuable article or thing, the delivering officer or authority shall place or cause to be placed such bullion, jewellery, article or thing in a package or packages which shall be listed with details of such bullion, jewellery, article or thing placed therein. Every such package shall bear an identification mark and seal of the requisitioning officer or of any other income-tax authority not below the rank of Income-tax Officer on behalf of the requisitioning officer, and also of the delivering officer or authority. The person referred to in clause (*a*) or clause (*b*) or, as the case may be, clause (*c*) of sub-section (1) of section 132A or any other person on his behalf shall also be permitted to place his seal on the said package or packages. A copy of the list prepared shall be delivered to such person and a copy thereof shall also be forwarded by the delivering officer to the Chief Commissioner or Commissioner and also to the Director-General or Director where the authorisation under sub-rule (1) has been issued by him.
+
+(4) The provisions of sub-rules (11) to (14) (both inclusive) of rule 112 and of rule 112A, rule 112B and rule 112C shall, so far as may be, apply as if the books of account, other documents and assets delivered to the requisitioning officer under section 132A had been seized under sub-section (1) of section 132 by the requisitioning officer from the custody of the person referred to in clause (*a*) or clause (*b* ) or, as the case may be, clause (*c*) of sub-section (1) of the said section and as if for the words "the authorised officer" occurring in any of the aforesaid sub-rules and rules, the words "the requisitioning officer" were substituted.

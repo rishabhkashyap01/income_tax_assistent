@@ -1,0 +1,72 @@
+{
+  "form_type": "",
+  "assessment_year": "2025-26",
+  "regime": "new",
+  "personal": {
+    "pan": "",
+    "name": "",
+    "dob": "",
+    "aadhaar": "",
+    "address": "",
+    "pincode": "",
+    "email": "",
+    "mobile": "",
+    "residential_status": "resident",
+    "filing_status": "original"
+  },
+  "salary": {
+    "gross_salary": 0.0,
+    "exempt_allowances": {
+      "hra": 0.0,
+      "lta": 0.0,
+      "other": 0.0
+    },
+    "standard_deduction": 0.0,
+    "professional_tax": 0.0,
+    "employer_name": "",
+    "employer_tan": ""
+  },
+  "house_property": [],
+  "other_income": {
+    "savings_interest": 0.0,
+    "fd_interest": 0.0,
+    "dividend_income": 0.0,
+    "family_pension": 0.0,
+    "agricultural_income": 0.0,
+    "other": 0.0
+  },
+  "capital_gains": null,
+  "business_income": null,
+  "deductions": {
+    "sec_80c": 0.0,
+    "sec_80ccc": 0.0,
+    "sec_80ccd_1": 0.0,
+    "sec_80ccd_1b": 0.0,
+    "sec_80ccd_2": 0.0,
+    "sec_80d_self": 0.0,
+    "sec_80d_parents": 0.0,
+    "sec_80dd": 0.0,
+    "sec_80ddb": 0.0,
+    "sec_80e": 0.0,
+    "sec_80ee": 0.0,
+    "sec_80eea": 0.0,
+    "sec_80eeb": 0.0,
+    "sec_80g": 0.0,
+    "sec_80gg": 0.0,
+    "sec_80tta": 0.0,
+    "sec_80ttb": 0.0,
+    "sec_80u": 0.0
+  },
+  "tax_payments": {
+    "tds_salary": 0.0,
+    "tds_other": 0.0,
+    "tcs": 0.0,
+    "advance_tax": 0.0,
+    "self_assessment_tax": 0.0
+  },
+  "bank_accounts": [],
+  "current_step": "welcome",
+  "completed_steps": [],
+  "created_at": "2026-02-10T08:31:23.025708",
+  "updated_at": "2026-02-10T08:35:51.878267"
+}

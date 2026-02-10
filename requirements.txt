@@ -12,10 +12,13 @@ pypdf
 beautifulsoup4
 crawl4ai
 markdownify
+playwright
+requests
 
 # Vector Database & Embeddings
 chromadb
 sentence-transformers
+langchain-huggingface
 tiktoken
 
 # Environment & Utilities
