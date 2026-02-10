@@ -21,6 +21,10 @@ sentence-transformers
 langchain-huggingface
 tiktoken
 
+# Database & Authentication
+pymongo
+bcrypt
+
 # Environment & Utilities
 python-dotenv
 pandas

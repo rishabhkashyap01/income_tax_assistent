@@ -5,7 +5,8 @@ from src.rag_engine import get_rag_chain
 from src.itr_models import ITRFiling
 from src.itr_prompts import FILING_STEPS, STEP_LABELS
 from src.filing_engine import process_filing_message, is_tax_question
-from src.filing_storage import save_filing, save_filing_to_path, load_filing, list_filings
+from src.filing_storage import save_filing, update_filing, load_filing, list_filings
+from src.auth import authenticate_user, register_user
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -20,7 +21,6 @@ st.set_page_config(
 # --- 2. MODERN CSS ---
 st.markdown("""
 <style>
-/* ─── Global ─── */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -47,29 +47,16 @@ st.markdown("""
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
-/* ─── Hide Streamlit defaults ─── */
 #MainMenu, footer, header { visibility: hidden; }
 .stDeployButton { display: none; }
 
-/* ─── Sidebar ─── */
 section[data-testid="stSidebar"] {
     background: linear-gradient(180deg, #1e1b4b 0%, #312e81 100%) !important;
     border-right: none !important;
 }
-
-section[data-testid="stSidebar"] * {
-    color: #e0e7ff !important;
-}
-
-section[data-testid="stSidebar"] .stRadio label span {
-    color: #c7d2fe !important;
-    font-weight: 500 !important;
-}
-
-section[data-testid="stSidebar"] hr {
-    border-color: rgba(255,255,255,0.1) !important;
-}
-
+section[data-testid="stSidebar"] * { color: #e0e7ff !important; }
+section[data-testid="stSidebar"] .stRadio label span { color: #c7d2fe !important; font-weight: 500 !important; }
+section[data-testid="stSidebar"] hr { border-color: rgba(255,255,255,0.1) !important; }
 section[data-testid="stSidebar"] .stButton button {
     background: rgba(255,255,255,0.1) !important;
     border: 1px solid rgba(255,255,255,0.2) !important;
@@ -78,279 +65,87 @@ section[data-testid="stSidebar"] .stButton button {
     font-weight: 500 !important;
     transition: all 0.2s ease !important;
 }
-
 section[data-testid="stSidebar"] .stButton button:hover {
     background: rgba(255,255,255,0.2) !important;
     border-color: rgba(255,255,255,0.3) !important;
     transform: translateY(-1px) !important;
 }
-
 section[data-testid="stSidebar"] .stButton button[kind="primary"] {
     background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
-    border: none !important;
-    color: #ffffff !important;
-    font-weight: 600 !important;
+    border: none !important; color: #ffffff !important; font-weight: 600 !important;
     box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3) !important;
 }
-
 section[data-testid="stSidebar"] .stButton button[kind="primary"]:hover {
     box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
 }
 
-/* ─── Hero Header ─── */
-.hero {
-    text-align: center;
-    padding: 1.5rem 0 1rem;
-}
-
+.hero { text-align: center; padding: 1.5rem 0 1rem; }
 .hero-title {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 2rem; font-weight: 700;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 0.25rem;
-    letter-spacing: -0.02em;
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 0.25rem; letter-spacing: -0.02em;
 }
+.hero-subtitle { font-size: 0.95rem; color: var(--text-secondary); font-weight: 400; }
 
-.hero-subtitle {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    font-weight: 400;
-}
-
-/* ─── Mode Pill Tabs ─── */
-.mode-pills {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: 0.75rem 0 1.25rem;
-}
-
-.mode-pill {
-    padding: 0.5rem 1.5rem;
-    border-radius: 100px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    text-decoration: none;
-    border: 1.5px solid var(--border);
-    color: var(--text-secondary);
-    background: var(--surface);
-}
-
-.mode-pill.active {
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-    color: white;
-    border-color: transparent;
-    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
-}
-
-/* ─── Info Banner ─── */
 .info-banner {
-    background: var(--accent-light);
-    border: 1px solid #c7d2fe;
-    border-radius: 12px;
-    padding: 0.85rem 1.25rem;
-    font-size: 0.88rem;
-    color: var(--accent-dark);
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    background: var(--accent-light); border: 1px solid #c7d2fe; border-radius: 12px;
+    padding: 0.85rem 1.25rem; font-size: 0.88rem; color: var(--accent-dark);
+    margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;
 }
-
 .info-banner .icon { font-size: 1.1rem; }
 
-/* ─── Chat Messages ─── */
 [data-testid="stChatMessage"] {
-    background: var(--surface) !important;
-    border: 1px solid var(--border-light) !important;
-    border-radius: 16px !important;
-    padding: 1rem 1.25rem !important;
-    margin-bottom: 0.75rem !important;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
+    background: var(--surface) !important; border: 1px solid var(--border-light) !important;
+    border-radius: 16px !important; padding: 1rem 1.25rem !important;
+    margin-bottom: 0.75rem !important; box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
     transition: box-shadow 0.2s ease !important;
 }
-
-[data-testid="stChatMessage"]:hover {
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+[data-testid="stChatMessage"]:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important; }
+[data-testid="stChatMessage"] p, [data-testid="stChatMessage"] div, [data-testid="stChatMessage"] li {
+    color: var(--text) !important; font-size: 0.92rem !important; line-height: 1.65 !important;
 }
 
-[data-testid="stChatMessage"] p,
-[data-testid="stChatMessage"] div,
-[data-testid="stChatMessage"] li {
-    color: var(--text) !important;
-    font-size: 0.92rem !important;
-    line-height: 1.65 !important;
-}
-
-/* ─── Chat Input ─── */
 [data-testid="stChatInput"] {
-    border-radius: 16px !important;
-    border: 2px solid var(--border) !important;
-    background: var(--surface) !important;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+    border-radius: 16px !important; border: 2px solid var(--border) !important;
+    background: var(--surface) !important; transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
 }
-
 [data-testid="stChatInput"]:focus-within {
-    border-color: var(--accent) !important;
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
+    border-color: var(--accent) !important; box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
 }
 
-/* ─── Progress Bar ─── */
-.stProgress > div > div {
-    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) !important;
-    border-radius: 100px !important;
-}
+.stProgress > div > div { background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end)) !important; border-radius: 100px !important; }
+.stProgress > div { background: var(--border-light) !important; border-radius: 100px !important; }
 
-.stProgress > div {
-    background: var(--border-light) !important;
-    border-radius: 100px !important;
-}
+.step-item { display: flex; align-items: center; gap: 0.65rem; padding: 0.4rem 0.75rem; margin: 0.15rem 0; border-radius: 8px; font-size: 0.82rem; }
+.step-item.completed { color: #86efac !important; }
+.step-item.current { background: rgba(255,255,255,0.1); color: #ffffff !important; font-weight: 600; }
+.step-item.pending { color: rgba(255,255,255,0.4) !important; }
 
-/* ─── Filing Progress Steps (sidebar) ─── */
-.step-item {
-    display: flex;
-    align-items: center;
-    gap: 0.65rem;
-    padding: 0.4rem 0.75rem;
-    margin: 0.15rem 0;
-    border-radius: 8px;
-    font-size: 0.82rem;
-    transition: background 0.15s ease;
-}
-
-.step-item.completed {
-    color: #86efac !important;
-}
-
-.step-item.completed .step-icon {
-    background: rgba(16, 185, 129, 0.2);
-    color: #34d399;
-}
-
-.step-item.current {
-    background: rgba(255,255,255,0.1);
-    color: #ffffff !important;
-    font-weight: 600;
-}
-
-.step-item.current .step-icon {
-    background: rgba(99, 102, 241, 0.3);
-    color: #a5b4fc;
-}
-
-.step-item.pending {
-    color: rgba(255,255,255,0.4) !important;
-}
-
-.step-icon {
-    width: 22px;
-    height: 22px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7rem;
-    flex-shrink: 0;
-}
-
-/* ─── Filing Start Cards ─── */
 .start-card {
-    background: var(--surface);
-    border: 1.5px solid var(--border);
-    border-radius: 16px;
-    padding: 2rem;
-    text-align: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
+    background: var(--surface); border: 1.5px solid var(--border); border-radius: 16px;
+    padding: 2rem; text-align: center; transition: all 0.2s ease; cursor: pointer;
 }
+.start-card:hover { border-color: var(--accent); box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1); transform: translateY(-2px); }
+.start-card .card-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+.start-card .card-title { font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 0.25rem; }
+.start-card .card-desc { font-size: 0.85rem; color: var(--text-secondary); }
 
-.start-card:hover {
-    border-color: var(--accent);
-    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1);
-    transform: translateY(-2px);
-}
+.status-badge { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.85rem; border-radius: 100px; font-size: 0.78rem; font-weight: 500; }
+.status-badge.connected { background: rgba(16, 185, 129, 0.15); color: #34d399; }
 
-.start-card .card-icon {
-    font-size: 2.5rem;
-    margin-bottom: 0.75rem;
-}
+.stat-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 0.85rem 1rem; margin-top: 0.75rem; }
+.stat-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.5) !important; margin-bottom: 0.2rem; }
+.stat-value { font-size: 1.5rem; font-weight: 700; color: #ffffff !important; }
 
-.start-card .card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 0.25rem;
-}
+.disclaimer { text-align: center; padding: 1rem 0 0.5rem; font-size: 0.75rem; color: var(--text-muted); border-top: 1px solid var(--border-light); margin-top: 1.5rem; }
 
-.start-card .card-desc {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-}
+.login-container { max-width: 420px; margin: 0 auto; padding: 2rem 0; }
+.login-card { background: var(--surface); border: 1.5px solid var(--border); border-radius: 20px; padding: 2.5rem 2rem; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
 
-/* ─── Sidebar Status Badge ─── */
-.status-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.35rem 0.85rem;
-    border-radius: 100px;
-    font-size: 0.78rem;
-    font-weight: 500;
-}
-
-.status-badge.connected {
-    background: rgba(16, 185, 129, 0.15);
-    color: #34d399;
-}
-
-/* ─── Stat card ─── */
-.stat-card {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 12px;
-    padding: 0.85rem 1rem;
-    margin-top: 0.75rem;
-}
-
-.stat-label {
-    font-size: 0.72rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: rgba(255,255,255,0.5) !important;
-    margin-bottom: 0.2rem;
-}
-
-.stat-value {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #ffffff !important;
-}
-
-/* ─── Disclaimer ─── */
-.disclaimer {
-    text-align: center;
-    padding: 1rem 0 0.5rem;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    border-top: 1px solid var(--border-light);
-    margin-top: 1.5rem;
-}
-
-/* ─── Spinner ─── */
-.stSpinner > div {
-    border-top-color: var(--accent) !important;
-}
-
-/* ─── Scrollbar ─── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 </style>
 """, unsafe_allow_html=True)
 
@@ -367,6 +162,12 @@ def init_rag():
 rag_chain = init_rag()
 
 # --- 4. SESSION STATE INIT ---
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+if "user_id" not in st.session_state:
+    st.session_state.user_id = None
+if "username" not in st.session_state:
+    st.session_state.username = None
 if "mode" not in st.session_state:
     st.session_state.mode = "qa"
 if "messages" not in st.session_state:
@@ -375,19 +176,98 @@ if "filing" not in st.session_state:
     st.session_state.filing = None
 if "filing_messages" not in st.session_state:
     st.session_state.filing_messages = []
-if "filing_path" not in st.session_state:
-    st.session_state.filing_path = None
+if "filing_id" not in st.session_state:
+    st.session_state.filing_id = None
 
-# --- 5. SIDEBAR ---
+
+# --- 5. AUTH GATE ---
+def show_login_page():
+    """Render login/register UI."""
+    st.markdown("""
+    <div class="hero" style="padding: 2.5rem 0 1rem;">
+        <div style="font-size: 3rem; margin-bottom: 0.5rem;">\U0001f4b0</div>
+        <div class="hero-title">TaxAI Assistant</div>
+        <div class="hero-subtitle">Login or create an account to get started</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Center the form
+    col_left, col_center, col_right = st.columns([1, 2, 1])
+    with col_center:
+        tab_login, tab_register = st.tabs(["\U0001f511 Login", "\u2728 Register"])
+
+        with tab_login:
+            with st.form("login_form"):
+                username = st.text_input("Username", placeholder="Enter your username")
+                password = st.text_input("Password", type="password", placeholder="Enter your password")
+                submitted = st.form_submit_button("Login", type="primary", use_container_width=True)
+                if submitted:
+                    if not username or not password:
+                        st.error("Please fill in both fields.")
+                    else:
+                        user = authenticate_user(username, password)
+                        if user:
+                            st.session_state.authenticated = True
+                            st.session_state.user_id = str(user["_id"])
+                            st.session_state.username = user["username"]
+                            st.rerun()
+                        else:
+                            st.error("Invalid username or password.")
+
+        with tab_register:
+            with st.form("register_form"):
+                new_username = st.text_input("Choose a username", placeholder="Pick a username")
+                new_password = st.text_input("Choose a password", type="password", placeholder="Min 6 characters")
+                confirm_password = st.text_input("Confirm password", type="password", placeholder="Re-enter password")
+                submitted = st.form_submit_button("Create Account", type="primary", use_container_width=True)
+                if submitted:
+                    if not new_username or not new_password:
+                        st.error("Please fill in all fields.")
+                    elif len(new_password) < 6:
+                        st.error("Password must be at least 6 characters.")
+                    elif new_password != confirm_password:
+                        st.error("Passwords do not match.")
+                    else:
+                        user = register_user(new_username, new_password)
+                        if user:
+                            st.session_state.authenticated = True
+                            st.session_state.user_id = str(user["_id"])
+                            st.session_state.username = user["username"]
+                            st.rerun()
+                        else:
+                            st.error("Username already taken. Try a different one.")
+
+if not st.session_state.authenticated:
+    show_login_page()
+    st.stop()
+
+
+# ═══════════════════════════════════════════════════════════
+# Everything below only runs if authenticated
+# ═══════════════════════════════════════════════════════════
+
+# --- 6. SIDEBAR ---
 with st.sidebar:
     # Logo & Brand
     st.markdown("""
     <div style="text-align:center; padding: 1.25rem 0 0.5rem;">
-        <div style="font-size: 2.25rem; margin-bottom: 0.25rem;">💰</div>
+        <div style="font-size: 2.25rem; margin-bottom: 0.25rem;">\U0001f4b0</div>
         <div style="font-size: 1.15rem; font-weight: 700; color: #ffffff !important; letter-spacing: -0.01em;">TaxAI</div>
         <div style="font-size: 0.72rem; color: rgba(255,255,255,0.5) !important; letter-spacing: 0.05em; text-transform: uppercase;">Smart ITR Filing</div>
     </div>
     """, unsafe_allow_html=True)
+
+    # User info + logout
+    st.markdown(f"""
+    <div style="text-align:center; font-size: 0.8rem; color: rgba(255,255,255,0.6) !important; margin-bottom: 0.25rem;">
+        Logged in as <strong style="color: #c7d2fe !important;">{st.session_state.username}</strong>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if st.button("\U0001f6aa Logout", use_container_width=True):
+        for key in list(st.session_state.keys()):
+            del st.session_state[key]
+        st.rerun()
 
     st.markdown("---")
 
@@ -440,10 +320,10 @@ with st.sidebar:
             if st.button("\u2728  Start New Filing", type="primary", use_container_width=True):
                 st.session_state.filing = ITRFiling()
                 st.session_state.filing_messages = []
-                st.session_state.filing_path = None
+                st.session_state.filing_id = None
                 st.rerun()
 
-            saved = list_filings()
+            saved = list_filings(st.session_state.user_id)
             if saved:
                 st.markdown("---")
                 st.markdown("""
@@ -455,10 +335,11 @@ with st.sidebar:
                     name = f['name'] or f['pan'] or 'Draft'
                     form = f['form_type'] or 'New'
                     label = f"{name} \u00b7 {form}"
-                    if st.button(label, key=f["filepath"], use_container_width=True):
-                        st.session_state.filing = load_filing(f["filepath"])
-                        st.session_state.filing_messages = []
-                        st.session_state.filing_path = f["filepath"]
+                    if st.button(label, key=f["filing_id"], use_container_width=True):
+                        filing_obj, messages = load_filing(f["filing_id"])
+                        st.session_state.filing = filing_obj
+                        st.session_state.filing_messages = messages
+                        st.session_state.filing_id = f["filing_id"]
                         st.rerun()
         else:
             # Active filing — progress tracker
@@ -489,29 +370,28 @@ with st.sidebar:
             col1, col2 = st.columns(2)
             with col1:
                 if st.button("\U0001f4be Save", use_container_width=True):
-                    if st.session_state.filing_path:
-                        save_filing_to_path(filing, st.session_state.filing_path)
+                    if st.session_state.filing_id:
+                        update_filing(filing, st.session_state.filing_id, st.session_state.filing_messages)
                     else:
-                        path = save_filing(filing)
-                        st.session_state.filing_path = path
+                        fid = save_filing(filing, st.session_state.user_id, st.session_state.filing_messages)
+                        st.session_state.filing_id = fid
                     st.toast("Progress saved!", icon="\u2705")
 
             with col2:
                 if st.button("\u2716 Exit", use_container_width=True):
-                    if st.session_state.filing_path:
-                        save_filing_to_path(filing, st.session_state.filing_path)
+                    if st.session_state.filing_id:
+                        update_filing(filing, st.session_state.filing_id, st.session_state.filing_messages)
                     elif filing.personal.pan:
-                        path = save_filing(filing)
-                        st.session_state.filing_path = path
+                        fid = save_filing(filing, st.session_state.user_id, st.session_state.filing_messages)
+                        st.session_state.filing_id = fid
                     st.session_state.filing = None
                     st.session_state.filing_messages = []
-                    st.session_state.filing_path = None
+                    st.session_state.filing_id = None
                     st.rerun()
 
 
-# --- 6. MAIN CONTENT ---
+# --- 7. MAIN CONTENT ---
 
-# Hero
 st.markdown("""
 <div class="hero">
     <div class="hero-title">TaxAI Assistant</div>
@@ -606,8 +486,8 @@ else:
                 )
             st.session_state.filing = updated_filing
             st.session_state.filing_messages.append({"role": "assistant", "content": response})
-            if step_advanced and st.session_state.filing_path:
-                save_filing_to_path(updated_filing, st.session_state.filing_path)
+            if step_advanced and st.session_state.filing_id:
+                update_filing(updated_filing, st.session_state.filing_id, st.session_state.filing_messages)
             filing = updated_filing
 
         # Step progress bar
@@ -652,14 +532,14 @@ else:
                 st.session_state.filing_messages.append({"role": "assistant", "content": full_response})
 
                 if step_advanced:
-                    if st.session_state.filing_path:
-                        save_filing_to_path(updated_filing, st.session_state.filing_path)
+                    if st.session_state.filing_id:
+                        update_filing(updated_filing, st.session_state.filing_id, st.session_state.filing_messages)
                     elif updated_filing.personal.pan:
-                        path = save_filing(updated_filing)
-                        st.session_state.filing_path = path
+                        fid = save_filing(updated_filing, st.session_state.user_id, st.session_state.filing_messages)
+                        st.session_state.filing_id = fid
                     st.rerun()
 
-# --- 7. DISCLAIMER ---
+# --- 8. DISCLAIMER ---
 st.markdown("""
 <div class="disclaimer">
     \u26A0\uFE0F This is an AI research project. Verify all information with the

@@ -39,7 +39,12 @@ def _get_llm():
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         raise ValueError("GROQ_API_KEY not found. Check your .env file!")
-    return ChatGroq(model=GROQ_MODEL, temperature=0.1, groq_api_key=api_key)
+    return ChatGroq(
+        model=GROQ_MODEL,
+        temperature=0.1,
+        groq_api_key=api_key,
+        max_tokens=1024,
+    )
 
 
 def _parse_extracted_data(response_text: str) -> dict | None:
@@ -58,12 +63,32 @@ def _parse_extracted_data(response_text: str) -> dict | None:
 
 
 def _clean_response(response_text: str) -> str:
-    """Remove the data extraction block from the visible response."""
+    """Remove the data extraction block and truncate any repetition loops."""
+    # Remove extraction markers
     pattern = re.compile(
         re.escape(DATA_START) + r".*?" + re.escape(DATA_END),
         re.DOTALL,
     )
     cleaned = pattern.sub("", response_text).strip()
+
+    # Detect and truncate repetition loops
+    # Split into paragraphs and find the first repeated block
+    paragraphs = cleaned.split("\n\n")
+    if len(paragraphs) > 4:
+        seen = set()
+        cut_index = len(paragraphs)
+        for i, para in enumerate(paragraphs):
+            # Normalize whitespace for comparison
+            key = " ".join(para.split()).strip()
+            if len(key) < 20:
+                continue  # Skip short lines (headers, etc.)
+            if key in seen:
+                cut_index = i
+                break
+            seen.add(key)
+        if cut_index < len(paragraphs):
+            cleaned = "\n\n".join(paragraphs[:cut_index]).strip()
+
     return cleaned
 
 
@@ -345,14 +370,25 @@ def process_filing_message(
     if filing.personal.pan:
         system_prompt += f"\n\nCurrent filing state:\n{_build_filing_summary(filing)}"
 
-    # Always add instruction that the LLM should answer questions inline
+    # Global instructions appended to every step prompt
     system_prompt += (
-        "\n\nIMPORTANT: If the user asks a question about tax concepts, rules, sections, "
-        "or anything related to income tax — answer it clearly and helpfully using your "
-        "knowledge and any reference context provided below. After answering, gently guide "
-        "them back to the current filing step. Do NOT say you don't have the information. "
-        "You are an expert Indian tax assistant with deep knowledge of the Income Tax Act 1961 "
-        "and Income Tax Rules 1962."
+        "\n\nIMPORTANT RULES:"
+        "\n1. If the user asks a question about tax concepts, rules, sections, "
+        "or anything related to income tax — answer it clearly using your knowledge "
+        "and any reference context provided below. Then gently guide them back to the "
+        "current filing step. Do NOT say you don't have the information."
+        "\n2. When you have collected all data for this step and are ready to output the "
+        "extraction block — you MUST first show the user a clear, readable summary of "
+        "what you collected. Use bullet points or a table. For example:"
+        "\n   'Here's what I've recorded:"
+        "\n   - Gross Salary: Rs. 12,00,000"
+        "\n   - HRA Exemption: Rs. 1,20,000"
+        "\n   - Professional Tax: Rs. 2,400'"
+        "\n   Then ask 'Does this look correct?' and include the extraction block AFTER "
+        "the readable summary. The extraction block will be hidden from the user, but "
+        "your readable summary above it will be visible."
+        "\n3. You are an expert Indian tax assistant with deep knowledge of the Income Tax "
+        "Act 1961 and Income Tax Rules 1962."
     )
 
     # Inject RAG context if available
@@ -362,13 +398,17 @@ def process_filing_message(
             f"(use this to answer the user's question):\n\n{rag_context}"
         )
 
-    # Build LangChain messages
+    # Build LangChain messages — limit history to avoid token overflow & repetition
     messages = [SystemMessage(content=system_prompt)]
-    for msg in chat_history[-20:]:  # Keep last 20 messages for context
+    for msg in chat_history[-10:]:
         if msg["role"] == "user":
             messages.append(HumanMessage(content=msg["content"]))
         else:
-            messages.append(AIMessage(content=msg["content"]))
+            # Truncate long assistant messages in history to save tokens
+            content = msg["content"]
+            if len(content) > 500:
+                content = content[:500] + "..."
+            messages.append(AIMessage(content=content))
     messages.append(HumanMessage(content=user_message))
 
     # Call LLM

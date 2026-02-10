@@ -1,0 +1,84 @@
+{
+  "form_type": "ITR-2",
+  "assessment_year": "2025-26",
+  "regime": "new",
+  "personal": {
+    "pan": "ADECG9241K",
+    "name": "Rishabh Kashyap",
+    "dob": "16/12/2004",
+    "aadhaar": "984509246743",
+    "address": "Teacher's colony, near arabia college chowk, Maranga Road, Purnea",
+    "pincode": "854301",
+    "email": "rishabhkashyap8135@gmail.com",
+    "mobile": "7976422167",
+    "residential_status": "resident",
+    "filing_status": "original"
+  },
+  "salary": {
+    "gross_salary": 1000000.0,
+    "exempt_allowances": {
+      "hra": 0.0,
+      "lta": 0.0,
+      "other": 0.0
+    },
+    "standard_deduction": 75000,
+    "professional_tax": 3000.0,
+    "employer_name": "",
+    "employer_tan": ""
+  },
+  "house_property": [],
+  "other_income": {
+    "savings_interest": 0.0,
+    "fd_interest": 0.0,
+    "dividend_income": 0.0,
+    "family_pension": 0.0,
+    "agricultural_income": 0.0,
+    "other": 0.0
+  },
+  "capital_gains": {
+    "stcg_15": 0.0,
+    "stcg_slab": 0.0,
+    "ltcg_10": 0.0,
+    "ltcg_20": 0.0
+  },
+  "business_income": null,
+  "deductions": {
+    "sec_80c": 0.0,
+    "sec_80ccc": 0.0,
+    "sec_80ccd_1": 0.0,
+    "sec_80ccd_1b": 0.0,
+    "sec_80ccd_2": 0.0,
+    "sec_80d_self": 0.0,
+    "sec_80d_parents": 0.0,
+    "sec_80dd": 0.0,
+    "sec_80ddb": 0.0,
+    "sec_80e": 0.0,
+    "sec_80ee": 0.0,
+    "sec_80eea": 0.0,
+    "sec_80eeb": 0.0,
+    "sec_80g": 0.0,
+    "sec_80gg": 0.0,
+    "sec_80tta": 0.0,
+    "sec_80ttb": 0.0,
+    "sec_80u": 0.0
+  },
+  "tax_payments": {
+    "tds_salary": 0.0,
+    "tds_other": 0.0,
+    "tcs": 0.0,
+    "advance_tax": 0.0,
+    "self_assessment_tax": 0.0
+  },
+  "bank_accounts": [],
+  "current_step": "capital_gains",
+  "completed_steps": [
+    "welcome",
+    "form_selection",
+    "personal_info",
+    "regime_selection",
+    "salary_income",
+    "house_property"
+  ],
+  "created_at": "2026-02-10T12:12:54.172709",
+  "updated_at": "2026-02-10T12:21:54.662745"
+}
