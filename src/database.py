@@ -35,3 +35,4 @@ def _ensure_indexes(db: Database):
     db.users.create_index("username", unique=True)
     db.filings.create_index("user_id")
     db.filings.create_index([("user_id", 1), ("updated_at", -1)])
+    db.sessions.create_index("token", unique=True)

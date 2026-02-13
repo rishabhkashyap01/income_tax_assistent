@@ -9,11 +9,11 @@ def ingest_large_tax_act():
     DB_PATH = "data/chroma_db"
 
     # 1. LOAD: Optimized for large files
-    print("📖 Loading 916-page Tax Act... this may take a minute.")
+    print("Loading 916-page Tax Act... this may take a minute.")
     loader = PyPDFLoader(PDF_PATH)
     # This loads pages one by one to save memory
     pages = loader.load()
-    print(f"✅ Successfully loaded {len(pages)} pages.")
+    print(f"Successfully loaded {len(pages)} pages.")
 
     # 2. SPLIT: Strategic splitting for legal text
     # We use a larger chunk size (1500) because legal sentences are long.
@@ -25,10 +25,10 @@ def ingest_large_tax_act():
     )
     
     chunks = text_splitter.split_documents(pages)
-    print(f"✂️ Created {len(chunks)} semantic chunks.")
+    print(f"Created {len(chunks)} semantic chunks.")
 
     # 3. EMBED: Local CPU execution
-    print("💡 Generating embeddings (all-MiniLM-L6-v2)...")
+    print("Generating embeddings (all-MiniLM-L6-v2)...")
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     # 4. STORE: Persistent ChromaDB
@@ -39,7 +39,7 @@ def ingest_large_tax_act():
         persist_directory=DB_PATH
     )
     
-    print(f"🚀 Success! Database updated at {DB_PATH}")
+    print(f"Success! Database updated at {DB_PATH}")
 
 if __name__ == "__main__":
     ingest_large_tax_act()

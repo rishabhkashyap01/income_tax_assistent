@@ -6,9 +6,11 @@ Simple username/password auth with bcrypt hashing.
 
 from __future__ import annotations
 
+import secrets
 from datetime import datetime
 
 import bcrypt
+from bson import ObjectId
 from pymongo.errors import DuplicateKeyError
 
 from src.database import get_db
@@ -47,3 +49,31 @@ def authenticate_user(username: str, password: str) -> dict | None:
     if user and verify_password(password, user["password_hash"]):
         return user
     return None
+
+
+def create_session(user_id: str) -> str:
+    """Create a persistent session token for the user. Returns the token."""
+    db = get_db()
+    token = secrets.token_urlsafe(32)
+    db.sessions.insert_one({
+        "token": token,
+        "user_id": user_id,
+        "created_at": datetime.now().isoformat(),
+    })
+    return token
+
+
+def validate_session(token: str) -> dict | None:
+    """Look up a session token. Returns the user dict if valid, None otherwise."""
+    db = get_db()
+    session = db.sessions.find_one({"token": token})
+    if not session:
+        return None
+    user = db.users.find_one({"_id": ObjectId(session["user_id"])})
+    return user
+
+
+def delete_session(token: str):
+    """Delete a session token (logout)."""
+    db = get_db()
+    db.sessions.delete_one({"token": token})
