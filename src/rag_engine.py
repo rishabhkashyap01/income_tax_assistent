@@ -15,6 +15,15 @@ DB_DIR = "data/chroma_db"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 
+def _get_secret(key: str, default: str = "") -> str:
+    """Read from Streamlit secrets (cloud) first, then fall back to os.getenv (local)."""
+    try:
+        import streamlit as st
+        return st.secrets.get(key, os.getenv(key, default))
+    except Exception:
+        return os.getenv(key, default)
+
+
 def _extract_rule_numbers(query: str) -> list[str]:
     """Extract rule numbers mentioned in the user query.
 
@@ -40,7 +49,7 @@ def _extract_section_numbers(query: str) -> list[str]:
 
 
 def get_rag_chain():
-    api_key = os.getenv("GROQ_API_KEY")
+    api_key = _get_secret("GROQ_API_KEY")
 
     if not api_key:
         raise ValueError("GROQ_API_KEY not found. Check your .env file!")

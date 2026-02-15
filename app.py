@@ -505,6 +505,7 @@ def init_rag():
     try:
         return get_rag_chain()
     except Exception as e:
+        st.error(f"RAG Engine failed to load: {e}")
         return None
 
 _loading = st.empty()

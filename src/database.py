@@ -14,6 +14,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+def _get_secret(key: str, default: str = "") -> str:
+    """Read from Streamlit secrets (cloud) first, then fall back to os.getenv (local)."""
+    try:
+        import streamlit as st
+        return st.secrets.get(key, os.getenv(key, default))
+    except Exception:
+        return os.getenv(key, default)
+
 _client: MongoClient | None = None
 _db: Database | None = None
 
@@ -22,8 +31,8 @@ def get_db() -> Database:
     """Return the MongoDB database instance (lazy singleton)."""
     global _client, _db
     if _db is None:
-        mongo_uri = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-        db_name = os.getenv("MONGO_DB_NAME", "tax_assistant")
+        mongo_uri = _get_secret("MONGO_URI", "mongodb://localhost:27017")
+        db_name = _get_secret("MONGO_DB_NAME", "tax_assistant")
         _client = MongoClient(mongo_uri)
         _db = _client[db_name]
         _ensure_indexes(_db)
