@@ -22,7 +22,7 @@ langchain-huggingface
 tiktoken
 
 # Database & Authentication
-pymongo
+pymongo[srv]
 bcrypt
 
 # Environment & Utilities
