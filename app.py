@@ -32,6 +32,11 @@ st.markdown("""
 }
 
 #MainMenu, footer, .stDeployButton { display: none !important; }
+[data-testid="stToolbar"] { display: none !important; }
+.stAppDeployButton, [data-testid="stStatusWidget"] { display: none !important; }
+a[href*="streamlit.io"], .viewerBadge_container__r5tak,
+[data-testid="manage-app-button"], .styles_viewerBadge__CvC9N,
+[class*="viewerBadge"], [data-testid="stDecoration"] { display: none !important; }
 header[data-testid="stHeader"] { background: #0a0a0f !important; }
 
 /* Sidebar toggle button — always white */
@@ -80,6 +85,9 @@ section[data-testid="stSidebar"] hr { border-color: rgba(139, 92, 246, 0.15) !im
     box-shadow: 0 4px 20px rgba(124, 58, 237, 0.3) !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     backdrop-filter: blur(10px) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 .stButton button:hover {
     box-shadow: 0 8px 30px rgba(124, 58, 237, 0.5) !important;
@@ -88,6 +96,11 @@ section[data-testid="stSidebar"] hr { border-color: rgba(139, 92, 246, 0.15) !im
 .stButton button p {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* ===== HERO ===== */
@@ -399,6 +412,11 @@ div:has(> [data-testid="stMarkdown"] .delete-marker) + div button:hover {
 div:has(> [data-testid="stMarkdown"] .delete-marker) + div button p {
     color: #ef4444 !important;
     -webkit-text-fill-color: #ef4444 !important;
+    margin: 0 !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* ===== ALERTS ===== */
